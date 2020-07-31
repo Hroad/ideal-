@@ -1,0 +1,109 @@
+.bg_token {
+    position: relative;
+    min-height: 726px;
+    padding-bottom: 100px;
+}
+
+.token {
+    overflow: hidden;
+    position: relative;
+}
+
+.token_title {
+    margin-top: 56px;
+    margin-bottom: 80px;
+}
+
+.token_img {
+    display: block;
+    width: 100%;
+}
+
+.token_content {
+    width: 678px;
+    height: 469px;
+    background-color: #4394d8;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+}
+
+.show_content_box {
+    width: 655px;
+    height: 440px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px;
+    display: none;
+}
+
+.show_content_box img {
+    display: block;
+    margin: 40px auto;
+}
+
+.school_name {
+    font-size: 36px;
+    font-family: "方正兰亭中黑简体";
+    color: #418fcc;
+    font-weight: normal;
+    text-align: center;
+}
+
+.time {
+    font-size: 28px;
+    text-align: center;
+}
+
+.address {
+    font-size: 28px;
+    text-align: center;
+}
+
+.token_outside_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.token_nav {
+    width: 346px;
+}
+
+.token_nav li {
+    width: 100%;
+    height: 50px;
+    background-color: #c3dbf0;
+    color: #0059b3;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 0 25px 25px 0;
+    user-select: none;
+    cursor: pointer;
+}
+
+.token_nav li:nth-child(6) {
+    margin-bottom: 19px;
+}
+
+.token_nav .active_li {
+    background-color: #4394d8;
+    color: #ffffff;
+    position: relative;
+}
+
+.active_li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(../../../images/triangle.png) no-repeat;
+    width: 13px;
+    height: 20px;
+    top: 15px;
+    left: 36px;
+}

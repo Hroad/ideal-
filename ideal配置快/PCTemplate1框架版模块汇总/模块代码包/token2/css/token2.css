@@ -1,0 +1,125 @@
+/*宣讲行程*/
+
+
+.time_axis,.time-list {
+
+    position: relative;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+	height: 105px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+	overflow: hidden;
+}
+
+.node {
+
+	float: left;
+	width: 135px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.node img {
+    width: 41px;
+    display: block;
+	margin: 0 auto;
+}
+
+.node b {
+    width: 9px;
+    height: 9px;
+    border: 3px solid #ffde00;
+    border-radius: 50%;
+    display: block;
+    margin: 7px auto;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 99;
+}
+
+.node p {
+    font-family: "方正兰亭大黑简体";
+    color: #8c8c8c;
+    font-size: 16px;
+}
+
+.node_on b {
+    width: 13px;
+    height: 13px;
+    border: 3px solid #0062a9;
+    margin: 5px auto;
+    margin-bottom: 0px;
+}
+
+.node_on p {
+    color: #0062a9;
+    font-size: 20px;
+    font-family: "方正兰亭大黑简体";
+}
+
+.date_line {
+    height: 1px;
+    width: 888px;
+    background-color: #fee222;
+    position: absolute;
+    top: 52px;
+    left: 72px;
+}
+
+.arrow {
+    position: absolute;
+    width: 12px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+.right_arrow {
+    right: 0;
+}
+
+.left_arrow {
+    left: 0;
+}
+
+.content_box {
+    width: 750px;
+    height: 226px;
+    border-radius: 18px;
+    background: url(../../../images/xc_bg.png)no-repeat center center/100% 100% ;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    padding: 20px 70px;
+    overflow: hidden;
+	margin-bottom: 30px;
+}
+
+
+.content_box img {
+    float: left;
+    margin-right: 25px;
+}
+
+.school_details {
+    float: left;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.s_name {
+    color: #0062a9;
+    font-size: 27px;
+    font-family: "方正兰亭中黑简体";
+    margin-top: 22px;
+    margin-bottom: 30px;
+}

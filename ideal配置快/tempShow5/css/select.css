@@ -1,0 +1,50 @@
+.select {
+    width: 108px;
+    height: 32px;
+    background: url(../images/select.png) no-repeat;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    border: 1px solid #c6c7c9;
+    border-radius: 6px;
+    background-position: 86px 12px;
+    position: relative;
+    padding-top: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.select:last-child {
+    margin: 0;
+}
+
+.select span {
+    color: #a7a8ac;
+    font-size: 14px;
+    display: block;
+}
+
+.opt_box {
+    position: absolute;
+    top: 100%;
+    left: -1px;
+    display: none;
+}
+
+.opt_box .opt {
+    width: 108px;
+    height: 32px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 32px;
+    color: #a7a8ac;
+}
+
+.opt_box .opt:hover {
+    background-color: #ff7145;
+    color: #ffffff;
+}

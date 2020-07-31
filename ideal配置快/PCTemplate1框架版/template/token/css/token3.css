@@ -1,0 +1,49 @@
+.road{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.road-content{
+    position: relative;
+    width: 250px;
+    margin-left: 10px;
+}
+
+.color-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #FFDE00;
+    color: white;
+    position: absolute;
+    text-align: center;
+    line-height: 31px;
+    font-size: 18px;
+    right: -14px;
+    top: -14px;
+}
+.road-box{
+    background: #E7F0F7;
+    border-radius: 10px;
+    padding: 18px 10px;
+    width: 250px;
+    height: 120px;
+    margin-bottom: 50px;
+
+}
+.road-box p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+
+}
+.road-box p.bold-text{
+    font-weight: bold;
+    font-size: 18px;
+}
+.road-content>img{
+    position: absolute;
+    right: -135px;
+    top: 52px;
+    width: 135px;
+}

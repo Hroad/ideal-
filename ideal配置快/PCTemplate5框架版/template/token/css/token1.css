@@ -1,0 +1,94 @@
+/*宣讲行程*/
+.token_outside_box {
+    overflow: hidden;
+}
+
+.cneter_line {
+    width: 100%;
+    height: 1px;
+    background-color: #dadada;
+}
+
+.school_box {
+    position: relative;
+    overflow: hidden;
+    width: 1664px;
+    left: 0;
+}
+
+.s_box {
+    width: 178px;
+    height: 284px;
+    background: url(../../../images/t_img1.png) no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    padding-top: 100px;
+    position: relative;
+    margin-right: 30px;
+    float: left;
+}
+
+.s_box:nth-of-type(2n) {
+    margin-top: 70px;
+}
+
+/* .s_box:nth-of-type(5n) {
+   margin-right: 0;
+} */
+
+.only_num {
+    font-size: 51px;
+    color: #ffffff;
+    position: absolute;
+    top: 50px;
+    left: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.time_address {
+    text-align: center;
+    font-size: 14px;
+    color: #4b4b4b;
+}
+
+.school_name_box {
+    width: 178px;
+    height: 79px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.school_name {
+    width: 120px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 18px;
+    font-family: "方正兰亭大黑简体";
+    height: fit-content;
+    text-align: center;
+}
+
+.left_arrow,
+.right_arrow {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    display: block;
+    top: 66%;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.left_arrow {
+    left: -69px;
+}
+
+.right_arrow {
+    right: -69px;
+}

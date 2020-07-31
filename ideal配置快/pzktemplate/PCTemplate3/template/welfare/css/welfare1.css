@@ -1,0 +1,33 @@
+/* 薪酬福利 */
+
+.container1-3 .column-center ul {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container1-3 .column-center ul li {
+    width: 456px;
+    text-align: right;
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.container1-3 .column-center ul li img {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.container1-3 .column-center ul li p {
+    display: inline-block;
+    width: 70px;
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #000000;
+}

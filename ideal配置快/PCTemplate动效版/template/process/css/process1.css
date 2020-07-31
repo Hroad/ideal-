@@ -1,0 +1,153 @@
+.bg_process {
+    position: relative;
+}
+
+.process {
+    overflow: hidden;
+    min-height: 678px;
+}
+
+.process_title {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.pro-boxs{
+	width: 700px;
+	background: #e3effa;
+	padding: 30px 0;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+.pro-box{
+	overflow: hidden;
+	display: none;
+}
+.pro-box:first-child{
+	display: block;
+}
+.pro-box div{
+	float: left;
+}
+.pro-boxicon{
+	width: 250px;
+	text-align: center;
+	border-right: 5px solid #0062a9;
+}
+.pro-boxtxt{
+	margin-left: 40px;
+	color: #0062a9;
+}
+.pro-boxtxt p{
+	font-size: 16px;
+	font-weight: bold;
+}
+.pro-boxtxt h2{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.pro-boxtime{
+	background: url(../../../images/pro_boxtimebg.png) no-repeat center center/100%;
+	height: 40px;
+	width: 300px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+.pro-lcwz{
+	text-align: center;
+	font-size: 25px;
+	color: #0062a9;
+	font-weight: bold;
+	margin-top: 5%;
+}
+
+.pro-icons{
+	margin-top: 80px;
+}
+.pro-icons ul{
+	overflow: hidden;
+}
+.pro-icons ul li{
+	float: left;
+	width: 9%;
+	text-align: center;
+	cursor: pointer;
+}
+.pro-icons ul li:nth-child(even){
+	margin-top: 25px;
+}
+
+.pro-icons ul li:nth-child(2) img{
+	animation:fadeInLeft 1s linear 0.2s infinite both;
+}
+.pro-icons ul li:nth-child(4) img{
+	animation:fadeInLeft 1s linear 0.6s infinite both;
+}
+.pro-icons ul li:nth-child(6) img{
+	animation:fadeInLeft 1s linear 1s infinite both;
+}
+.pro-icons ul li:nth-child(8) img{
+	animation:fadeInLeft 1s linear 1.4s infinite both;
+}
+.pro-icons ul li:nth-child(10) img{
+	animation:fadeInLeft 1s linear 1.8s infinite both;
+}
+
+.pro-probars{
+	position: relative;
+	margin-top: 20px;
+}
+
+.pro-bar{
+	width: 100%;
+    height: 12px;
+    border-radius: 6px;
+	background: #c4c4c4;
+}
+.pro-barjd{
+	width: 9%;
+	height: 12px;
+	border-radius: 6px;
+	background: #0059b3;
+}
+
+
+.pro-barnum ul{
+	overflow: hidden;
+    margin-top: -32px;
+    padding: 10px 0;
+}
+.pro-barnum ul li{
+	float: left;
+	width: 9%;
+	text-align: center;
+	margin-right: 9%;
+}
+.pro-barnum ul li:last-child{
+	margin-right: 0;
+}
+
+.pro-barnum ul li span{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #c4c4c4;
+	border-radius: 50%;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.pro-barnum ul li .pro-numactive{
+	background: #0059b3;
+	animation:flash 3s linear 0.2s infinite both;
+}
+
+

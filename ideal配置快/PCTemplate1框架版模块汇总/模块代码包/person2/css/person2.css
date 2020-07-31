@@ -1,0 +1,62 @@
+.cul-swiper {
+    width: 898px;
+    height: 452px;
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    user-select: none;
+    display: block;
+}
+
+.cul-swiper .cul-pagination {
+    top: 47%;
+}
+
+.cul-pagination .swiper-pagination-bullet {
+    width: 194px;
+    height: 116px;
+    display: block;
+    border-radius: 0;
+}
+
+.cul-pagination .swiper-pagination-bullet:nth-of-type(1) {
+    background: url(../../../images/s1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.cul-pagination .swiper-pagination-bullet:nth-of-type(2) {
+    background: url(../../../images/s2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.cul-pagination .swiper-pagination-bullet:nth-of-type(3) {
+    background: url(../../../images/s3.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.column-center .cul-prev {
+    width: 27px;
+    height: 27px;
+    background: url(../../../images/top.png) no-repeat;
+    background-size: 100% 100%;
+    top: 130px;
+    left: 82%;
+}
+
+.column-center .cul-prev::after {
+    opacity: 0;
+}
+
+.column-center .cul-next {
+    width: 27px;
+    height: 27px;
+    background: url(../../../images/bottom.png) no-repeat;
+    background-size: 100% 100%;
+    top: 97%;
+    left: 82%;
+}
+
+.column-center .cul-next::after {
+    opacity: 0;
+}

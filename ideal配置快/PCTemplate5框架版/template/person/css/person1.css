@@ -1,0 +1,86 @@
+/* 员工风采 */
+
+.person {
+    background-color: transparent;
+    font-family: "方正兰亭黑简体";
+}
+
+.person_column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_text {
+    width: 442px;
+}
+
+.left_text h1 {
+    color: #ffffff;
+}
+
+.left_text h2 {
+    color: #ffffff;
+    margin-bottom: 78px;
+}
+
+.left_text p {
+    color: #ffffff;
+    text-indent: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    margin-bottom: 64px;
+    text-align: justify;
+}
+
+.left_text .join {
+    margin-left: 0;
+    background-color: #ffffff;
+    color: #0358c2;
+}
+
+.left_text .more {
+    margin-left: 62px;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.cul-swiper {
+    width: 590px !important;
+}
+
+.cul-swiper .swiper-slide img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.cul-swiper .cul-prev {
+    top: auto;
+    left: 276px;
+    bottom: 0;
+    width: 12px;
+    height: 24px;
+    background: url(../../../images/left_arrow1.png)no-repeat;
+    background-size: 100% 100%;
+}
+
+.cul-swiper .cul-prev::after {
+    content: "";
+}
+
+.cul-swiper .cul-next {
+    top: auto;
+    left: 376px;
+    bottom: 0;
+    width: 12px;
+    height: 24px;
+    background: url(../../../images/right_arrow1.png)no-repeat;
+    background-size: 100% 100%;
+}
+
+.cul-swiper .cul-next::after {
+    content: "";
+}

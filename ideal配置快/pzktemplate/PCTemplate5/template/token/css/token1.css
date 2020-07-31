@@ -1,0 +1,18 @@
+.bg_token {
+    position: relative;
+    min-height: 726px;
+}
+
+.token {
+    overflow: hidden;
+}
+
+.token_title {
+    margin-top: 56px;
+    margin-bottom: 40px;
+}
+
+.token_img {
+    display: block;
+    width: 100%;
+}

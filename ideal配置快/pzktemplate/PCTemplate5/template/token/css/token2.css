@@ -1,0 +1,143 @@
+.bg_token {
+    position: relative;
+    min-height: 726px;
+    padding-bottom: 100px;
+}
+
+.token {
+    overflow: hidden;
+    position: relative;
+}
+
+.token_title {
+    margin-top: 56px;
+    margin-bottom: 80px;
+}
+
+
+
+.road{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+}
+.road-left,.road-right{
+    width: 500px;
+}
+
+.road-line{
+    width: 1px;
+    border-right: 3px dashed #C9C9C9;
+    height: 1970px;
+}
+.road-left{
+    margin-top: 35px;
+}
+.road-left .road-box{
+    background: url("../../../images/orange-border.png");
+    background-size: 100% 100%;
+    border-radius: 10px;
+    padding: 18px 10px;
+    width: 400px;
+    height: 80px;
+    margin-bottom: 80px;
+    float: left;
+}
+.road-left .road-box p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: right;
+    padding-right: 65px;
+    color: #4B4B4B;
+
+}
+.road-left .road-box p.bold-text{
+    font-weight: bold;
+    font-size: 18px;
+}
+.road-content{
+    position: relative;
+
+}
+.road-left div.road-adress{
+    position: absolute;
+    right: 5px;
+    background: url(../../../images/orange-bg.png);
+    background-size: 100% 100%;
+    width: 128px;
+    height: 105px;
+    top: -5px;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 20px;
+    z-index: 1;
+}
+.road-left div.road-adress p{
+    font-size: 18px;
+    color: white;
+}
+
+.l-point {
+    position: absolute;
+    right: -20px;
+    top: 50px;
+}
+
+
+.road-right{
+    margin-top: -55px;
+}
+.road-right .road-box{
+    background: url("../../../images/blue-border2.png");
+    background-size: 100% 100%;
+    border-radius: 10px;
+    padding: 18px 10px;
+    width: 400px;
+    height: 80px;
+    margin-bottom: 80px;
+    float: right;
+
+}
+.road-right .road-box p{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 65px;
+    color: #4B4B4B;
+
+}
+.road-right .road-box p.bold-text{
+    font-weight: bold;
+    font-size: 18px;
+}
+.road-right div.road-adress{
+    position: absolute;
+    left: 5px;
+    background: url(../../../images/blue-bg.png);
+    background-size: 100% 100%;
+    width: 128px;
+    height: 105px;
+    top: -5px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 20px;
+    z-index: 1;
+}
+.road-right div.road-adress p{
+    font-size: 18px;
+    color: white;
+}
+
+.r-point {
+    position: absolute;
+    left: -20px;
+    top: 50px;
+}
+.clear{
+    clear: both;
+}
+
+
+

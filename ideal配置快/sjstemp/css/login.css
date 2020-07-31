@@ -1,0 +1,155 @@
+body,html{
+	min-width: 1280px;
+	min-height: 680px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: "方正兰亭黑简体" !important;
+}
+a{
+	text-decoration: none !important; 
+}
+img{
+	display: block;
+	width: 100%;
+}
+.warp{
+	min-width: 1280px;
+	min-height: 680px;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header{
+	width: 100%;
+	min-width: 1280px;
+	height: 90px;
+	background: #fff;
+}
+.log-h{
+	width: 1100px;
+	margin: 0 auto;
+}
+.logo{
+	width: 374px;
+}
+
+.content{
+	width: 100%;
+	height: 100%;
+	background:#ff714a url(../images/login_bg.png) no-repeat center bottom /100%;
+}
+.content-box{
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+.slogin{
+	width: 400px;
+	float: left;
+}
+.logins{
+	width: 500px;
+	float: right;
+}
+.login-box{
+	width: 320px;
+	background: #fff;
+	border-radius: 5px;
+	padding: 20px;
+}
+.login-box h3{
+	font-size: 18px;
+	color: #ff7344;
+	margin-bottom: 10px;
+}
+.khinp{
+	border: 1px solid #c9c9c9;
+	height: 30px;
+	line-height: 30px;
+	padding:  0 10px;
+	margin-bottom: 20px;
+}
+.khinp img{
+	width: 18px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.khinp input{
+	border: none;
+	outline: none;
+	font-size: 14px;
+	color: #8b8b8b;
+	width: 87%;
+	background: transparent;
+}
+.bhinp{
+	border: 1px solid #c9c9c9;
+	height: 30px;
+	line-height: 30px;
+	padding:  0 10px;
+}
+.bhinp img{
+	width: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.bhinp input{
+	border: none;
+	outline: none;
+	font-size: 14px;
+	color: #8b8b8b;
+	width: 87%;
+	background: transparent;
+}
+
+.login-bth,.login-nobth{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: #fd7243;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.login-bth{
+	letter-spacing: 10px;
+	margin-top: 30px;
+}
+.login-nobth{
+	margin-bottom: 20px;
+}
+
+.footer{
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	left: 0;
+	right: 0;
+}
+.footer img{
+	width: 15px;
+	display: initial;
+	vertical-align: middle;
+}
+

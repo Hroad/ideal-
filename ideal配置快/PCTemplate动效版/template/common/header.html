@@ -1,0 +1,143 @@
+<div class="header mediacy">
+
+    <img src="images/logo.png" class="logo">
+
+    <ul class="nav">
+        <li class="active">首页</li>
+        <li>公司简介</li>
+        <li>招聘职位</li>
+        <li>招聘流程</li>
+        <li>宣讲行程</li>
+        <li>了解更多</li>
+    </ul>
+
+</div>
+
+<script>
+    // 导航栏活性样式
+    // $(".nav li").mouseenter(function () {
+    //     $(this).addClass("active");
+    //     $(".nav li").not(this).removeClass("active");
+    // })
+
+    function IsPC() {
+        var userAgentInfo = navigator.userAgent;
+        var Agents = ['Android', 'iPhone',
+            'SymbianOS', 'Windows Phone',
+            'iPad', 'iPod'
+        ];
+        var flag = true;
+        for (var i = 0; i < Agents.length; i++) {
+            if (userAgentInfo.indexOf(Agents[i]) != -1) {
+                flag = false;
+                break;
+            }
+        }
+        return flag;
+    }
+
+    $(".nav li").click(function () {
+        var index = $(this).index();
+
+        $(this).addClass("active").siblings().removeClass("active");
+
+        switch (index) {
+
+            // 检测为首页
+            case 0:
+
+                if (!IsPC()) {
+
+                    $(".bg_banner").load("template/common/banner1.html");
+
+                    $(".bg_content").load("template/intro/html/intro1.html");
+
+                    $(".copyright").addClass("copy_special");
+
+                    $(".nav li").eq(1).addClass("active").siblings().removeClass("active");
+
+                } else {
+
+                    // 导入头部
+                    $(".bg_header").load("template/common/header.html");
+
+                    // 导入首页背景
+                    $(".bg_content").load("template/index/html/index1.html");
+
+                    // 导入版权
+                    $(".copyright").load("template/common/footer.html");
+
+                    // 清空banner区
+                    $(".bg_banner").text("");
+
+                    $(".copyright").removeClass("copy_special");
+
+                    $(".nav li").eq(0).addClass("active").siblings().removeClass("active");
+
+                }
+
+                break;
+
+                // 检测为简介页
+            case 1:
+
+                $(".bg_banner").load("template/common/banner1.html");
+
+                $(".bg_content").load("template/intro/html/intro1.html");
+
+                $(".copyright").addClass("copy_special");
+
+                break;
+
+                // 检测为职位页
+            case 2:
+
+                $(".bg_banner").load("template/common/banner2.html");
+
+                $(".bg_content").load("template/jobs/html/jobs1.html");
+
+                $(".copyright").addClass("copy_special");
+
+                break;
+
+                // 检测为流程页
+            case 3:
+
+                // banner导入
+                $(".bg_banner").load("template/common/banner3.html");
+
+                $(".bg_content").load("template/process/html/process1.html");
+
+                $(".copyright").addClass("copy_special");
+
+                break;
+
+                // 检测为宣讲页
+            case 4:
+			
+                $(".bg_banner").load("template/common/banner4.html");
+
+                $(".bg_content").load("template/token/html/token1.html");
+
+                $(".copyright").addClass("copy_special");
+				
+                break;
+
+                // 检测为更多页
+            case 5:
+
+                $(".bg_banner").load("template/common/banner5.html");
+
+                $(".bg_content").load("template/about/html/about1.html");
+
+                $(".copyright").addClass("copy_special");
+
+                break;
+
+            default:
+                break;
+
+        }
+
+    })
+</script>

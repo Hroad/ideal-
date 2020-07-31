@@ -1,0 +1,159 @@
+.bg_jobs {
+    position: relative;
+    min-height: 811px;
+}
+
+.jobs {
+    overflow: hidden;
+}
+
+.jobs_title {
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+.job_text {
+    width: 100%;
+    border-radius: 15px;
+    height: 66px;
+    background-color: #5199ce;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 66px;
+    overflow: hidden;
+}
+
+.job_text span {
+    display: inline-block;
+    text-align: center;
+}
+
+.job_text span:first-child {
+    width: 190px;
+}
+
+.job_text span:last-child {
+    width: 800px;
+    float: right;
+}
+
+.jobs_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.nav_box {
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.left_nav {
+    width: 185px;
+    color: #757373;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    background-color: #dfebf4;
+    padding: 4px;
+    font-size: 14px;
+    height: 454px;
+    overflow: hidden;
+}
+
+.job_active {
+    color: #000000 !important;
+    background-color: #a5cbe8 !important;
+}
+
+.left_nav .job_name {
+    background-color: #eff5fa;
+    height: 35px;
+    width: 100%;
+    margin: 2px 0;
+    line-height: 35px;
+    text-align: center;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+}
+
+.right_content {
+    width: 806px;
+    font-size: 14px;
+    padding-bottom: 34px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.common_style {
+    width: 100%;
+    font-size: 16px;
+    border-bottom: 1px solid #b4dbf2;
+    margin-bottom: 5px;
+}
+
+.common_style img {
+    vertical-align: text-bottom;
+    margin-right: 5px;
+}
+
+.common_text {
+    line-height: 28px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.apply {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 95px;
+    height: 34px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #5199ce;
+    border: 3px solid #5199ce;
+    border-radius: 17px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.arrow_box {
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.job_left_arrow {
+    width: 10px;
+    height: 13px;
+    background: url(../../../images/job_arrow.png) no-repeat;
+    float: left;
+    cursor: pointer;
+}
+
+.job_right_arrow {
+    width: 10px;
+    height: 13px;
+    background: url(../../../images/job_arrow1.png) no-repeat;
+    float: right;
+    cursor: pointer;
+}

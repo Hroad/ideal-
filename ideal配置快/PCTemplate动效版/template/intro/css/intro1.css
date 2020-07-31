@@ -1,0 +1,45 @@
+.bg_intro {
+    background-color: #fafafa;
+    padding-bottom: 88px;
+    position: relative;
+}
+
+.intro {
+    overflow: hidden;
+}
+
+.intro_title {
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.imgAndText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.text_box {
+    width: 592px;
+}
+
+.intro_img {
+    width: 369px;
+    height: 387px;
+    display: block;
+    margin-top: 10px;
+}
+
+.text_box p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 32px;
+    text-indent: 32px;
+    margin-bottom: 10px;
+}

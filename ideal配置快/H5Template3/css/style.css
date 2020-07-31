@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* ----------------
+	公共样式开始
+----------------- */
+/*长页面滚轮*/
+html,body,
+.swiper-container,
+.swiper-slide,
+.swiper-wrapper {
+	width: 100%;
+	height: 100%;
+}
+.page-L {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+.page-L::-webkit-scrollbar {
+	display: none;
+}
+.fl{float: left;}
+.fr{float: right;}
+img{display: block;margin: 0 auto;}
+/*中间内容*/
+.main{
+	box-sizing: border-box;
+	height: 100%;
+	padding-bottom: 0;
+	/*此处 padding-bottom 大小要和底部footer等高*/
+	font-size: 0.18rem;
+}
+.main .top{
+	padding: 0.5rem 1.25rem 0;
+}
+.main .top .logo{
+	width: 2.9875rem;
+}
+.main .info{
+	box-sizing: border-box;
+	padding-top: 0.9rem;
+	height: 100%;
+}
+.main .info>div{
+	display: none;
+	height: 100%;
+}
+.main .info>div>img{
+	width: 100%;
+	height: 100%;
+}
+.tab{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	background-color: #005ab2;
+	display: flex;
+	justify-content: space-evenly;
+	z-index: 200;
+}
+.tab li{
+	position: relative;
+	width: 18%;
+	color: #85dfff;
+	border-bottom: 2px solid transparent;
+	text-align: center;
+}
+.tab .act{
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+.tab .act::after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0.13rem;
+	height: 0.07rem;
+	background: url(../images/san.png);
+	background-size: 100% 100%;
+}
+.box{
+	position: absolute;
+	box-shadow: 0 0 1px 0 #2c78ce;
+	top: 2.5rem;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 85%;
+	height: 8.5rem;
+	box-sizing: border-box;
+	padding: 0.4rem;
+	padding-right: 0.2rem;
+	background-color: rgba(24, 156, 234, 0.7);
+	border-radius: 0.2rem;
+	
+}
+.box>div{
+	height: 100%;
+}
+.box .ren{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 1rem;
+	z-index: 200;
+}
+.box h2 img{
+	height: 0.6rem;
+	margin-bottom: 0.3rem;
+}
+.box h3 img{
+	height: 0.5rem;
+	margin: 0.2rem 0;
+}
+.box p{
+	text-indent: 2em;
+	text-align: justify;
+	line-height: 0.35rem;
+	color: #fff;
+	margin-bottom: 0.1rem;
+}
+/*尾部*/
+#s1 .footer{
+	color: #000;
+}
+.footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 0.15rem;
+	/* height: 2.875rem;
+	margin-top: 8.125rem;
+	line-height: 2.175rem; */
+}
+.footer img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0.3125rem;
+	width: 0.35rem;
+}
+/* ----------------
+	公共样式结束
+----------------- */
+/* ----------------
+	各页面背景图
+----------------- */
+#s1{
+	background: url(../images/bg.jpg) no-repeat top center/100% 100%;
+}
+
+/* ----------------
+	各页面背景图
+----------------- */
+/* ----------------
+	引导页s1开始
+----------------- */
+#s1 .top{
+	padding: 3% 0 0 3%;
+}
+#s1 .top .logo{
+	width: 3.0875rem;
+	margin-left: 0;
+} 
+.lb{
+	margin-bottom: 0.3rem;
+}
+.swiper1{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+.swiper1 .swiper-slide img{
+	width: 100%;
+}
+.swp1{
+	width: 100%;
+	text-align: center;
+}
+.swp1 .swiper-pagination-bullet{
+	margin: 0 0.1rem;
+}
+/* ----------------
+	引导页s1结束
+----------------- */
+/* ----------------
+	公司简介s2开始
+----------------- */
+.tel li:nth-child(odd){
+	position: relative;
+	padding: 0.15rem 0;
+	padding-left: 0.8rem;
+	background-color: #0576df;
+	border-radius: 0.5rem;
+	color: #fff;
+	font-size: 0.24rem;
+	margin-bottom: 0.3rem;
+}
+.tel li:nth-child(odd) img{
+	position: absolute;
+	top: 0.15rem;
+	right: 0.2rem;
+	height: 0.4rem;
+	transform: rotate(-90deg);
+}
+.tel li:nth-child(odd)::before{
+	content: '';
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0.4rem;
+	width: 0.2rem;
+	height: 0.2rem;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.tel li:nth-child(even){
+	display: none;
+	box-sizing: border-box;
+	width: 85%;
+	padding: 0.3rem;
+	padding-bottom: 0.5rem;
+	background: url(../images/li.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	transform: translateY(-0.3rem);
+}
+.tel li:nth-child(even) p{
+	text-indent: 0 !important;
+}
+.tel li:nth-child(even) h4 img{
+	height: 0.3rem;
+	margin-left: 0;
+}
+.tel li:nth-child(even) a img{
+	height: 0.5rem;
+}
+/* ----------------
+	公司简介s2结束
+----------------- */
+/* ----------------
+	公司文化s3开始
+----------------- */
+.culture{
+
+}
+/* ----------------
+	公司文化s3结束
+----------------- */
+/* ----------------
+	职位列表s4开始
+----------------- */
+.job{
+
+}
+/* ----------------
+	职位列表s4结束
+----------------- */
+/* ----------------
+	联系我们s5开始
+----------------- */
+.contact{
+
+}
+/* ----------------
+	联系我们s5结束
+----------------- */
+.mCSB_inside > .mCSB_container {
+    margin-right: 15px;
+}
+.mCSB_scrollTools .mCSB_dragger{
+	background-color: #fff;
+}
+.mCSB_scrollTools{
+	width: 6px;
+}
+.mCSB_scrollTools .mCSB_draggerRail{
+	background-color: #fff;
+}
+
+.swiper-button-prev{
+	background-image: url(../images/z.png);
+}
+.swiper-button-next{
+	background-image: url(../images/y.png);
+}
+.swiper-button-next, .swiper-button-prev{
+	width: 22px;
+	height: 22px;
+	margin-top: -11px;
+	background-size: 100% 100%;
+}
+
+.swiper-pagination-bullet{
+	opacity: 1;
+	background-color: transparent;
+	border: 1px solid #fff;
+}
+.swiper-pagination-bullet-active{
+	background-color: #fff;
+}

@@ -1,0 +1,27 @@
+.bg_intro {
+    position: relative;
+    background-color: #fafafa;
+}
+
+.intro {
+    overflow: hidden;
+}
+
+.intro_title {
+    margin-top: 55px;
+    margin-bottom: 74px;
+}
+
+.intro_img {
+    width: 100%;
+    display: block;
+    margin-bottom: 60px;
+}
+
+.text_box p {
+    font-size: 16px;
+    line-height: 32px;
+    text-indent: 32px;
+    text-align: justify;
+    margin-bottom: 14px;
+}

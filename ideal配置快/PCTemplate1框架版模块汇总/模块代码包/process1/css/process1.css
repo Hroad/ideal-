@@ -1,0 +1,107 @@
+/*招聘流程*/
+
+.pro-swiper {
+    width: 100%;
+    position: relative;
+    padding-top: 130px !important;
+}
+
+.pro-swiper .swiper-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.pro-swiper .swiper-slide {
+    width: 100%;
+    position: relative;
+}
+
+.pro-swiper img {
+    margin: 0 auto;
+}
+
+
+.pro-swiper .pro-prev {
+    width: 40px;
+    height: 40px;
+    background: url(../../../images/prev01.png) no-repeat center;
+    background-size: 100% 100%;
+    opacity: 1 !important;
+    left: 55px;
+    top: 185px;
+    transform: rotate(180deg);
+}
+
+.pro-swiper .pro-next {
+    width: 40px;
+    height: 40px;
+    background: url(../../../images/prev01.png) no-repeat center;
+    background-size: 100% 100%;
+    opacity: 1 !important;
+    right: 55px;
+    top: 185px;
+}
+
+.pro-swiper .pro-prev::after {
+    opacity: 0;
+}
+
+.pro-swiper .pro-next::after {
+    opacity: 0;
+}
+
+.pro-swiper .swiper-button-disabled {
+    background: url(../../../images/prev02.png) no-repeat;
+}
+
+.pro-pagination {
+    position: absolute;
+    top: 0;
+    width: 850px !important;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    height: 77px;
+    background: url(../../../images/process-pageBg.png) no-repeat center;
+    background-size: 850px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro-pagination .swiper-pagination-bullet {
+    background: url(../../../images/process-page.png) no-repeat;
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 !important;
+}
+
+.pro-pagination .swiper-pagination-bullet-active {
+    background: url(../../../images/process-page2.png) no-repeat;
+}
+
+.pro-pagination .swiper-pagination-bullet:nth-child(1) {
+    background-position-x: 0;
+}
+
+.pro-pagination .swiper-pagination-bullet:nth-child(2) {
+    background-position-x: -150px;
+}
+
+.pro-pagination .swiper-pagination-bullet:nth-child(3) {
+    background-position-x: -300px;
+}
+
+.pro-pagination .swiper-pagination-bullet:nth-child(4) {
+    background-position-x: -450px;
+}
+
+.pro-pagination .swiper-pagination-bullet:nth-child(5) {
+    background-position-x: -600px;
+}
+
+.pro-pagination .swiper-pagination-bullet:last-child {
+    background-position-x: -750px;
+}

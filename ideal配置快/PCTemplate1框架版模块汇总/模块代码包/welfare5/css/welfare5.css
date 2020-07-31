@@ -1,0 +1,37 @@
+/* 薪酬福利 */
+
+.welfare {
+    background-color: #fafafa;
+}
+
+.welfare_title span:nth-of-type(2) {
+    top: -44px !important;
+}
+
+.container1-3 .column-center {
+    overflow: hidden;
+}
+
+.container1-3 .column-center ul {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container1-3 .column-center ul li {
+    margin-bottom: 45px;
+    display: block;
+    font-size: 24px;
+}
+
+.container1-3 .column-center ul li .ball {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fa7f2a;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 50px;
+}

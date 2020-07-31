@@ -1,0 +1,69 @@
+/* 员工风采 */
+.cul-swiper {
+    width: 670px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 50px !important;
+}
+
+.cul-swiper .swiper-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.cul-swiper .swiper-slide {
+    width: 100%;
+    position: relative;
+}
+
+.cul-swiper img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.cul-swiper p {
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container1-2 .cul-prev {
+    width: 35px;
+    height: 7px;
+    background: #FFE400;
+    opacity: 1 !important;
+    left: 80px;
+    top: 300px;
+}
+
+.container1-2 .cul-next {
+    width: 35px;
+    height: 7px;
+    background: #FFE400;
+    opacity: 1 !important;
+    right: 80px;
+    top: 300px;
+}
+
+.container1-2 .cul-next::after {
+    opacity: 0;
+}
+
+.container1-2 .cul-prev::after {
+    opacity: 0;
+}
+
+.container1-2 .swiper-button-disabled {
+    background: #CCCCCC;
+}
+
+.cul-swiper .swiper-pagination-bullet {
+    opacity: 1 !important;
+    background: #CCCCCC;
+    margin: 0 10px;
+}
+
+.cul-swiper .swiper-pagination-bullet-active {
+    background: #FFE400;
+    transform: scale(1.5);
+}

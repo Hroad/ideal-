@@ -1,0 +1,68 @@
+/*宣讲行程*/
+
+.container4-1 .trip-menu {
+    width: 880px;
+    min-height: 220px;
+    margin: 0 auto;
+    background: #EEEEEE;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 110px;
+    padding-right: 30px;
+}
+
+.container4-1 .trip-menu img {
+    float: left;
+    margin-right: 45px;
+    padding-bottom: 30px;
+}
+
+.container4-1 .trip-menu h3 {
+    font-size: 28px;
+    color: #0062A9;
+    font-family: 方正兰亭中黑简体;
+    margin-bottom: 40px;
+}
+
+.container4-1 .trip-menu p {
+    font-size: 20px;
+    color: #0062A9;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.container4-1 .trip-menu p span {
+    font-weight: 500;
+}
+
+.container4-1 .trip-list {
+    width: 880px;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container4-1 .trip-list li {
+    padding: 0 15px;
+    font-size: 15.5px;
+    color: #FFFFFF;
+    background: #448BBF;
+    margin-right: 20px;
+    border-radius: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    min-width: 120px;
+    text-align: center;
+}
+
+.container4-1 .trip-list li:hover {
+    background: #0062A9;
+}
+
+.container4-1 .trip-list .trip-active {
+    background: #0062A9;
+}

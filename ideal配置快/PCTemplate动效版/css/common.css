@@ -1,0 +1,114 @@
+body,
+.main {
+    width: 100%;
+    height: 100%;
+    min-width: 1280px;
+    min-height: 680px;
+    position: relative;
+    font-family: "方正兰亭黑简体";
+}
+
+/* 版心1024px */
+.mediacy {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* 通用头部样式 */
+.bg_header {
+    background-color: #e5e5e5;
+    height: 120px;
+}
+
+.header {
+    overflow: hidden;
+    height: 100%;
+}
+
+.logo {
+    float: left;
+    margin-top: 36px;
+}
+
+.nav {
+    float: right;
+    font-size: 16px;
+    color: #005ab3;
+    margin-top: 50px;
+    font-family: "方正兰亭中黑简体";
+}
+
+.nav li {
+    float: left;
+    margin: 0 18px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.nav li:hover::after {
+    background: url(../images/active.png) no-repeat;
+    background-position: 0 0;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 4px;
+    background-color: #ffde00;
+    top: 10px;
+    left: -18px;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+.nav li:first-child {
+    margin-left: 0;
+}
+
+/* banner部分 */
+.bg_banner img {
+    width: 100%;
+    display: block;
+}
+
+/* 内容区 */
+.bg_content {
+    height: 100%;
+}
+
+body .copy_special {
+    height: 65px;
+    background: url(../images/line.png) no-repeat center top;
+    /* position: absolute; */
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    line-height: 65px;
+}
+
+body .copy_special img {
+    vertical-align: text-bottom;
+    width: 12px;
+}
+
+.intro_left1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 62px;
+    left: 2%;
+}
+
+.toTop {
+    position: fixed;
+    cursor: pointer;
+    right: 75px;
+    bottom: 110px;
+    z-index: 5;
+}

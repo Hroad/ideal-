@@ -1,0 +1,51 @@
+/*公司简介*/
+
+.main {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 102px 38px;
+    padding-top: 0;
+    margin-top: 50px !important;
+}
+
+.container1-1 .column-center {
+    position: relative;
+}
+
+.container1-1 .column-center img {
+    position: absolute;
+    right: -126px;
+    top: 38px;
+}
+
+.container1-1 .column-center p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 32px;
+    text-align: justify;
+    margin-bottom: 5px;
+    width: 553px;
+}
+
+.container1-2 {
+    /* background: url(../images/container-bg1-2.png) no-repeat; */
+    background-size: 100% 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.company_name {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.company_name span {
+    color: #fa7f2a;
+}
+
+.block {
+    width: 274px;
+    height: 22px;
+    background-color: #fcb27f;
+    margin-top: 50px;
+}

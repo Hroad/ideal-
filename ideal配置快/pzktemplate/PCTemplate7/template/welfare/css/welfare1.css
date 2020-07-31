@@ -1,0 +1,20 @@
+/* 薪酬福利 */
+
+.welfare {
+    background-color: #fafafa;
+}
+
+.welfare_title span:nth-of-type(2) {
+    top: -44px !important;
+}
+
+.container1-3 .column-center {
+    overflow: hidden;
+}
+
+
+.welfare_img {
+    position: absolute;
+    top: 130px;
+    right: 0;
+}

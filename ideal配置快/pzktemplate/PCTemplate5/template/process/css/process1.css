@@ -1,0 +1,53 @@
+.bg_process {
+    position: relative;
+}
+
+.process {
+    overflow: hidden;
+    min-height: 678px;
+}
+
+.process_title {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.process1 {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 86px;
+}
+
+.ewm_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.ewm p {
+    font-size: 16px;
+    font-family: "方正兰亭中黑简体";
+    text-align: center;
+}
+
+.ewm img {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.ewm:nth-of-type(2) img {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.ewm:nth-of-type(2) p {
+    text-align: justify;
+}

@@ -1,0 +1,880 @@
+/*页面总宽度*/
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    width: 100%;
+    height: 100%;
+    min-width: 1280px;
+}
+
+
+img {
+    /*width: 100%;*/
+    height: auto;
+    display: block;
+
+}
+
+
+
+
+/* 公共样式 */
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 70px;
+    position: relative;
+    background: #FAFAFA;
+
+}
+
+/*版权*/
+.bottom-bg {
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.copyright {
+    position: relative;
+    z-index: 9;
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: #000000;
+    font-size: 12px;
+    margin-top: -70px;
+}
+
+.copyright .hand {
+    vertical-align: text-bottom;
+    display: inline;
+    width: 12px;
+}
+
+/*导航栏*/
+.aside {
+    width: 100%;
+    height: 120px;
+    background: #E5E5E5;
+    position: relative;
+}
+
+.aside .aside-box {
+    width: 1025px;
+    margin: 0 auto;
+    height: 120px;
+    position: relative;
+}
+
+.aside-box .logo {
+    float: left;
+    margin-top: 40px;
+}
+
+.aside-box ul {
+    float: right;
+    position: relative;
+    padding-top: 50px;
+
+}
+
+.aside-box ul li {
+    display: inline-block;
+    margin-left: 35px;
+    position: relative;
+    height: 16px;
+}
+
+.aside-box ul li a {
+    color: #005AB3;
+    font-family: 方正兰亭中黑简体;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.aside-box ul .nav_i::before {
+    content: '';
+    width: 15px;
+    height: 16px;
+    background: url(../images/aside_bg.png) no-repeat center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -18px;
+}
+
+.aside-box ul li:hover::before {
+    content: '';
+    width: 15px;
+    height: 16px;
+    background: url(../images/aside_bg.png) no-repeat center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -18px;
+}
+
+/*banner*/
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.banner-i {
+    width: 100%;
+    position: relative;
+}
+
+.banner-box {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    padding-left: 250px;
+    padding-top: 40px;
+}
+
+.banner-box p {
+    display: inline-block;
+    font-size: 14px;
+    color: #FFFFFF;
+    vertical-align: middle;
+    letter-spacing: 1px;
+}
+
+.banner-box h2 {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: 方正兰亭大黑简体;
+    font-weight: 500;
+}
+
+/*板块*/
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.container .t-bg {
+    position: absolute;
+    left: 65px;
+}
+
+.container .main {
+    width: 1025px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 55px;
+    margin-bottom: 60px;
+}
+
+.title span {
+    display: inline-block;
+    font-family: 方正兰亭大黑简体;
+    border-bottom: 5px solid #FFE400;
+}
+
+.title-w {
+    color: #333333;
+}
+
+.title-w span {
+    color: #0059B3;
+}
+
+.title-b {
+    color: #FFFFFF;
+}
+
+.clear {
+    display: block;
+    clear: both;
+}
+
+/*返回顶部*/
+.toTop {
+    position: fixed;
+    cursor: pointer;
+    right: 75px;
+    bottom: 110px;
+    z-index: 5;
+}
+
+/*引导页*/
+.index {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    min-width: 1440px;
+    min-height: 720px;
+}
+
+.index .aside {
+    height: 100px;
+    position: relative;
+    z-index: 5;
+}
+
+.index .aside .aside-box {
+    height: 100px;
+}
+
+.index .aside .aside-box ul {
+    padding-top: 45px;
+}
+
+.index .aside .aside-box .logo {
+    margin-top: 30px;
+}
+
+.copyright-index {
+    color: #FFFFFF;
+}
+
+.index-bg {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    animation: bganimate 1s linear 0s;
+    -moz-animation: bganimate 1s linear 0s;
+    -webkit-animation: bganimate 1s linear 0s;
+}
+
+@keyframes bganimate {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes bganimate {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes bganimate {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+
+/*公司简介*/
+.container1-1 {
+    padding-top: 65px;
+    padding-bottom: 70px;
+}
+
+.container1-1 .column-center img {
+    float: right;
+    margin-left: 35px;
+}
+
+.container1-1 .column-center p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 32px;
+    text-align: justify;
+    text-indent: 2em;
+    margin-bottom: 5px;
+}
+
+.container1-2 {
+    background: url(../images/container-bg1-2.png) no-repeat;
+    background-size: 100% 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.cul-swiper {
+    width: 670px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 50px !important;
+}
+
+.cul-swiper .swiper-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.cul-swiper .swiper-slide {
+    width: 100%;
+    position: relative;
+}
+
+.cul-swiper img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.cul-swiper p {
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container1-2 .cul-prev {
+    width: 35px;
+    height: 7px;
+    background: #FFE400;
+    opacity: 1 !important;
+    left: 80px;
+    top: 300px;
+}
+
+.container1-2 .cul-next {
+    width: 35px;
+    height: 7px;
+    background: #FFE400;
+    opacity: 1 !important;
+    right: 80px;
+    top: 300px;
+}
+
+.container1-2 .cul-next::after {
+    opacity: 0;
+}
+
+.container1-2 .cul-prev::after {
+    opacity: 0;
+}
+
+.container1-2 .swiper-button-disabled {
+    background: #CCCCCC;
+}
+
+.cul-swiper .swiper-pagination-bullet {
+    opacity: 1 !important;
+    background: #CCCCCC;
+    margin: 0 10px;
+}
+
+.cul-swiper .swiper-pagination-bullet-active {
+    background: #FFE400;
+    transform: scale(1.5);
+}
+
+.container1-3 {
+    padding-top: 65px;
+    padding-bottom: 45px;
+}
+
+.container1-3 .column-center ul {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container1-3 .column-center ul li {
+    width: 456px;
+    text-align: right;
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.container1-3 .column-center ul li img {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.container1-3 .column-center ul li p {
+    display: inline-block;
+    width: 70px;
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #000000;
+}
+
+
+/*招聘职位*/
+.container2-1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.joblist {
+    width: 100%;
+}
+
+.joblist ul {
+    width: 100%;
+    min-height: 390px;
+}
+
+.joblist li {
+    width: 100%;
+    line-height: 65px;
+    height: 65px;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+.joblist li a {
+    float: right;
+    cursor: pointer;
+    color: #1B1B1B;
+    font-size: 16px;
+    padding-right: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.joblist li a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background: #005BB1;
+    left: 0;
+    top: 31px;
+}
+
+.joblist li p {
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+.joblist li .jobname {
+    color: #005BB1;
+    font-family: 方正兰亭大黑简体;
+
+}
+
+.joblist li span {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.joblist li .jobarea {
+    margin-left: 10px;
+    color: #333333;
+}
+
+.jobPage {
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+    line-height: 28px;
+    height: 28px;
+    color: #333333;
+    font-size: 18px;
+}
+
+.jobPage .prev-page {
+    border: 2px solid #005BB1;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.jobPage .next-page {
+    border: 2px solid #005BB1;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.jobPage .pagebtn {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.jobPage .pagebtn:hover {
+    color: #FFFFFF;
+    background: #005BB1;
+}
+
+.jobPage .disabled {
+    color: #FFFFFF;
+    background: #005BB1;
+}
+
+.none_text {
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.job-load {
+    text-align: center;
+    line-height: 50px;
+}
+
+.jobmenu {
+    width: 100%;
+}
+
+.jobmenu h3 {
+    font-size: 24px;
+    color: #005BB1;
+    font-family: 方正兰亭大黑简体;
+    font-weight: 500;
+}
+
+.jobmenu h3 span {
+    color: #333333;
+    font-size: 18px;
+    font-family: 方正兰亭黑简体;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.jobmenu .job-title {
+    font-size: 18px;
+    color: #005BB1;
+    font-family: 方正兰亭中黑简体;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+.jobmenu p {
+    font-size: 18px;
+    color: #333333;
+    text-align: justify;
+    line-height: 32px;
+}
+
+.jobmenu .apply {
+    float: left;
+    display: block;
+    width: 165px;
+    height: 45px;
+    background: #005BB1;
+    border: 1px solid #005BB1;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 方正兰亭大黑简体;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 330px;
+}
+
+.jobmenu .back {
+    float: right;
+    display: block;
+    width: 165px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #005BB1;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: #005BB1;
+    font-family: 方正兰亭大黑简体;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 330px;
+
+}
+
+/*提示框*/
+.job-result {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.job-result .infoshow {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background: rgba(255, 255, 255, .8);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 30%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.job-result .infoshow .infobox {
+    width: 100%;
+}
+
+.job-result .infoshow .infobox .tipImg {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.job-result .infoshow .infobox .tips {
+    text-align: center;
+    font-size: 16px;
+}
+
+/*招聘流程*/
+.container3-1 {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.pro-swiper {
+    width: 100%;
+    position: relative;
+    padding-top: 130px !important;
+}
+
+.pro-swiper .swiper-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.pro-swiper .swiper-slide {
+    width: 100%;
+    position: relative;
+}
+
+.pro-swiper img {
+    margin: 0 auto;
+}
+
+
+.pro-swiper .pro-prev {
+    width: 40px;
+    height: 40px;
+    background: url(../images/prev01.png) no-repeat center;
+    background-size: 100% 100%;
+    opacity: 1 !important;
+    left: 55px;
+    top: 185px;
+    transform: rotate(180deg);
+}
+
+.pro-swiper .pro-next {
+    width: 40px;
+    height: 40px;
+    background: url(../images/prev01.png) no-repeat center;
+    background-size: 100% 100%;
+    opacity: 1 !important;
+    right: 55px;
+    top: 185px;
+}
+
+.pro-swiper .pro-prev::after {
+    opacity: 0;
+}
+
+.pro-swiper .pro-next::after {
+    opacity: 0;
+}
+
+.pro-swiper .swiper-button-disabled {
+    background: url(../images/prev02.png) no-repeat;
+}
+
+.pro-pagination {
+    position: absolute;
+    top: 0;
+    width: 850px !important;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    height: 77px;
+    background: url(../images/process-pageBg.png) no-repeat center;
+    background-size: 850px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pro-pagination .swiper-pagination-bullet {
+    background: url(../images/process-page.png) no-repeat;
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 !important;
+}
+
+.pro-pagination .swiper-pagination-bullet-active {
+    background: url(../images/process-page2.png) no-repeat;
+}
+
+.pro-pagination .swiper-pagination-bullet:nth-child(1) {
+    background-position-x: 0;
+}
+
+.pro-pagination .swiper-pagination-bullet:nth-child(2) {
+    background-position-x: -150px;
+}
+
+.pro-pagination .swiper-pagination-bullet:nth-child(3) {
+    background-position-x: -300px;
+}
+
+.pro-pagination .swiper-pagination-bullet:nth-child(4) {
+    background-position-x: -450px;
+}
+
+.pro-pagination .swiper-pagination-bullet:nth-child(5) {
+    background-position-x: -600px;
+}
+
+.pro-pagination .swiper-pagination-bullet:last-child {
+    background-position-x: -750px;
+}
+
+/*宣讲行程*/
+.container4-1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container4-1 .trip-menu {
+    width: 880px;
+    min-height: 220px;
+    margin: 0 auto;
+    background: #EEEEEE;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 110px;
+    padding-right: 30px;
+}
+
+.container4-1 .trip-menu img {
+    float: left;
+    margin-right: 45px;
+    padding-bottom: 30px;
+}
+
+.container4-1 .trip-menu h3 {
+    font-size: 28px;
+    color: #0062A9;
+    font-family: 方正兰亭中黑简体;
+    margin-bottom: 40px;
+}
+
+.container4-1 .trip-menu p {
+    font-size: 20px;
+    color: #0062A9;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.container4-1 .trip-menu p span {
+    font-weight: 500;
+}
+
+.container4-1 .trip-list {
+    width: 880px;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container4-1 .trip-list li {
+    padding: 0 15px;
+    font-size: 15.5px;
+    color: #FFFFFF;
+    background: #448BBF;
+    margin-right: 20px;
+    border-radius: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    min-width: 120px;
+    text-align: center;
+}
+
+.container4-1 .trip-list li:hover {
+    background: #0062A9;
+}
+
+.container4-1 .trip-list .trip-active {
+    background: #0062A9;
+}
+
+/*了解更多*/
+.container5-1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.mi5-1 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.container5-1 .column-center ul {
+    width: 930px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container5-1 .column-center ul li {
+    text-align: center;
+    width: 300px;
+}
+
+.container5-1 .column-center ul li h3 {
+    color: #333333;
+    font-size: 20px;
+    font-family: 方正兰亭大黑简体;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.container5-1 .column-center ul li p {
+    font-size: 16px;
+    color: #333333;
+}

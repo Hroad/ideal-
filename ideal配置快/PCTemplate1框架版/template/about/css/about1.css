@@ -1,0 +1,32 @@
+/*了解更多*/
+
+.mi5-1 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.container5-1 .column-center ul {
+    width: 930px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container5-1 .column-center ul li {
+    text-align: center;
+    width: 300px;
+}
+
+.container5-1 .column-center ul li h3 {
+    color: #333333;
+    font-size: 20px;
+    font-family: 方正兰亭大黑简体;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.container5-1 .column-center ul li p {
+    font-size: 16px;
+    color: #333333;
+}

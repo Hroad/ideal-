@@ -1,0 +1,600 @@
+body,html{
+	min-width: 1280px;
+	min-height: 680px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: "方正兰亭黑简体" !important;
+}
+a{
+	text-decoration: none !important; 
+}
+img{
+	display: block;
+	width: 100%;
+}
+.warp{
+	min-width: 1280px;
+	min-height: 680px;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.container,.container .swiper-slide{
+	width: 100%;
+	height: 100%;
+}
+
+/* 首页 */
+.index{
+	width: 100%;
+	height: 100%;
+	min-width: 1280px;
+	min-height: 680px;
+	background: url(../img/index_bj.jpg) no-repeat center center/100% 100%;
+	animation: bganimate 0.3s linear 0s;
+	-moz-animation: bganimate 0.3s linear 0s;
+	-webkit-animation: bganimate 0.3s linear 0s;
+	position: relative;
+}
+.index-content{
+	margin: 0 auto;
+}
+@keyframes bganimate {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes bganimate {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes bganimate {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+.logo{
+	width: 20%;
+	position: absolute;
+	top: 4%;
+	left: 12%;
+}
+.slogan1{
+	position: absolute;
+	top: 23.5%;
+	left: 12%;
+}
+.slogan2{
+	position: absolute;
+	top: 32%;
+	left: 12%;
+}
+.apply-btn{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ff5116;
+	text-align: center;
+	position: absolute;
+	top: 43%;
+	left: 13%;
+	cursor: pointer;
+}
+.apply-btn div{
+	background: #fff;
+	border-radius: 20px;
+}
+.index-icon1{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 17%;
+}
+.index-icon2{
+    position: absolute;
+    right: 11%;
+    top: 17%;
+    width: 47%;
+}
+.index-box{
+	width: 80%;
+	height: 280px;
+	background: url(../img/indexbox_bg.png) no-repeat left top/100% 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 1% 3%;
+}
+.box-l{
+	float: left;
+	width: 20%;
+}
+.box-l ul{
+	overflow: hidden;
+}
+.box-l ul li{
+	width: 90%;
+	height: 50px;
+	line-height: 50px;
+	color: #333;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding-left: 20%;
+	cursor: pointer;
+	
+}
+.box-l ul li:hover{
+	background: rgba(153,153,153,0.1);
+	color: #ff5116;
+}
+.box-l ul .box-active{
+	background: rgba(153,153,153,0.1);
+	color: #ff5116;
+}
+
+.box-l ul li:last-child{
+	margin-bottom: 0px;
+}
+.box-l ul li img{
+	width:10%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.box-r{
+	width: 70%;
+	float: left;
+}
+.box-r ul {
+	overflow: hidden;
+	display: none;
+}
+.box-r ul:first-child{
+	display: block;
+}
+.box-r ul li{
+	width: 25%;
+	height: 230px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+.box-r ul li:hover{
+	background: rgba(153,153,153,0.1);
+}
+.Configuration-icon{
+	height: 105px;
+}
+.box-r ul li img{
+	width: 40%;
+    margin: 20px auto 0;
+}
+.box-r ul li:nth-child(2) img{
+	width: 45%;
+}
+.box-r ul li:nth-child(3) img{
+	width: 34%;
+}
+.box-r ul li:nth-child(4) img{
+	width: 34%;
+}
+.box-r ul li h3{
+	font-size: 18px;
+	color: #333;
+}
+
+.box-r ul li p{
+	font-size: 14px;
+	margin: 5px 0;
+}
+
+
+/* 报名页 */
+.apply{
+	width: 100%;
+	height: 100%;
+	min-width: 1280px;
+	min-height: 680px;
+	background: url(../img/apply_bj.jpg) no-repeat center center/100% 100%;
+	position: relative;
+}
+.apply-content{
+	margin: 0 auto;
+}
+.slogan3{
+	position: absolute;
+	top: 47%;
+	left: 12%;
+}
+.slogan3 p{
+	font-size: 16px;
+	color: #666;
+	width: 450px;
+	line-height: 30px;
+}
+.fh{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	background: #FF5116;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 25px;
+	position: absolute;
+	top: 4%;
+	right: 12%;
+	text-align: center;
+	cursor: pointer;
+}
+.kf-txt{
+	font-size: 18px;
+	position: absolute;
+	bottom: 5%;
+	left: 12%;
+}
+.kf-txt h3{
+	font-size: 30px;
+	color: #fff;
+	letter-spacing: 8px;
+}
+.kf-txt p{
+	color: #fff;
+	margin-top: 10px;
+	width: 400px;
+}
+
+/* 表单提交 */
+.apply-from{
+    width: 23%;
+    background: url(../img/applyfrom_bg.png) no-repeat left top/100% 100%;
+    position: absolute;
+    right: 19%;
+    top: 13%;
+}
+.apply-from h3{
+	margin-top: 13%;
+	font-size: 30px;
+	color: #fff;
+	margin-left: 16%;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.apply-from h4{
+	margin-top: 5px;
+	font-size: 18px;
+	color: #fff;
+	margin-left: 16%;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.apply-inps{
+	margin-top: 22%;
+	overflow: hidden;
+	padding-bottom: 18%;
+}
+.apply-inps input{
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+	outline: none;
+	border: none;
+	background: #f7f3f3;
+	border-radius: 5px;
+	height: 35px;
+	line-height: 35px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	color: #666;
+}
+.applySub-btn{
+	width: 100px;
+	line-height: 40px;
+	border-radius: 5px;
+	background: #FF5116;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 5px;
+	float: right;
+	margin-right: 15%;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.applySub-btn::before{
+	content: '';
+	display: block;
+	clear: both;
+}
+.idealr{
+	width: 10%;
+	position: absolute;
+	bottom: 0;
+	right: 35%;
+}
+.idealkf{
+	width: 17%;
+	position: absolute;
+	bottom: 0;
+	right: 8%;
+	cursor: pointer;
+}
+
+/* pc配置包page1 */
+.pc-ConfigurationPgea1{
+	width: 100%;
+	height: 100%;
+	min-width: 1280px;
+	min-height: 680px;
+	background: url(../img/ConfigurationPgea1_bj.jpg) no-repeat center center/100% 100%;
+	position: relative;
+}
+.ConfigurationPgea1-content{
+	margin: 0 auto;
+}
+
+.dialog-box{
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 10%;
+	overflow: hidden;
+}
+.dialog-box1,.dialog-box2,.dialog-box3{
+	width: 60%;
+	float: left;
+	margin-bottom: 10%;
+}
+.dialog-box2{
+	float: right;
+}
+.ConfigurationPgea1-more{
+	width: 250px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	background: #feb645;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+/* pc配置包page2 */
+.pc-ConfigurationPgea2{
+	width: 100%;
+	height: 100%;
+	min-width: 1280px;
+	min-height: 680px;
+	background: url(../img/ConfigurationPgea2_bj.jpg) no-repeat center center/100% 100%;
+	position: relative;
+}
+.ConfigurationPgea2-content{
+	margin: 0 auto;
+}
+.ConfigurationPgea2-title{
+	width: 25%;
+	margin: 0 auto;
+	padding-top: 10%;
+}
+.ConfigurationPgea2-x{
+	width: 100px;
+	height: 8px;
+	background: #ff551c;
+	border-radius: 4px;
+	margin: 1% auto;
+}
+.ConfigurationPgea2-box{
+	width: 80%;
+	margin: 4% auto 0;
+}
+.ConfigurationPgea2-box ul{
+	overflow: hidden;
+}
+.ConfigurationPgea2-box ul li{
+	width: 33%;
+	float: left;
+}
+
+/* pc配置包page3 */
+.pc-ConfigurationPgea3{
+	width: 100%;
+	height: 100%;
+	min-width: 1280px;
+	min-height: 680px;
+	background: url(../img/ConfigurationPgea3_bj.jpg) no-repeat center center/100% 100%;
+	position: relative;
+}
+.ConfigurationPgea3-content{
+	margin: 0 auto;
+}
+
+.ConfigurationPgea3-box{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 10%;
+}
+.ConfigurationPgea3-title1{
+	width: 335px;
+	height: 75px;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+	font-size: 16px;
+	padding-top: 10px;
+	background: url(../img/ConfigurationPgea3_titlebj1.png) no-repeat center center;
+}
+.ConfigurationPgea3-txt1 {
+	margin-top: 30px;
+}
+.ConfigurationPgea3-txt1::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.ConfigurationPgea3-txt1 ul li{
+	width: 30%;
+	background: #fff;
+	box-shadow: 0 0 10px #f4f4f4;
+	color: #666;
+	padding: 10px 20px;
+	float: left;
+	margin-right: 3%;
+	height: 140px;
+}
+.ConfigurationPgea3-txt1 ul li h3{
+	font-size: 18px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.ConfigurationPgea3-txtBox{
+	overflow: hidden;
+}
+.txtBoxl,.txtBoxr{
+	width: 14%;
+	float: left;
+}
+.txtBoxr{
+	width: 81%;
+	font-size: 16px;
+	margin-left: 5%;
+}
+.ConfigurationPgea3-txt1 ul li:last-child{
+	padding-bottom: 24px;
+}
+.ConfigurationPgea3-txt1 ul li:last-child .txtBoxr{
+	margin-top: 3%;
+}
+
+.ConfigurationPgea3-txt2 ul li{
+	height: 110px;
+}
+
+.ConfigurationPgea3-title2{
+	width: 335px;
+	height: 75px;
+	text-align: center;
+	color: #fff;
+	margin: 50px auto 0;
+	font-size: 16px;
+	padding-top: 23px;
+	background: url(../img/ConfigurationPgea3_titlebj2.png) no-repeat center center;
+}
+.ConfigurationPgea3-txt2 ul li:first-child .txtBoxr{
+	margin-top: 3%;
+}
+.ConfigurationPgea3-txt2 ul li:nth-child(2) .txtBoxr{
+	margin-top: 0;
+}
+.ConfigurationPgea3-txt2 ul li:nth-child(2){
+	padding-bottom: 33px;
+}
+.ConfigurationPgea3-txt2 ul li:nth-child(3) .txtBoxr{
+	margin-top: 0;
+}
+.ConfigurationPgea3-txt2 ul li:nth-child(1){
+	padding-bottom: 33px;
+}
+
+/* pc配置包page4 */
+.pc-ConfigurationPgea4{
+	width: 100%;
+	height: 100%;
+	min-width: 1280px;
+	min-height: 680px;
+	background: url(../img/ConfigurationPgea4_bj.jpg) no-repeat center center/100% 100%;
+	position: relative;
+}
+.ConfigurationPgea4-content{
+	margin: 0 auto;
+}
+.ConfigurationPgea4-box{
+	padding-top: 8%;
+}
+.ConfigurationPgea4-title{
+	width: 242px;
+	height: 54px;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	margin: 0px auto;
+	font-size: 18px;
+	background: url(../img/ConfigurationPgea4_titlebj.png) no-repeat center center;
+}
+.ConfigurationPgea4-txt{
+	width: 60%;
+	margin: 0 auto;
+}
+.ConfigurationPgea4-txt ul{
+	margin-top: 30px;
+}
+.ConfigurationPgea4-txt ul::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.ConfigurationPgea4-txt ul li{
+	width: 30%;
+	float: left;
+	background: #fff;
+	box-shadow: 0 0 10px #ccc;
+	padding: 20px;
+	font-size: 16px;
+	margin-right: 3%;
+	color: #666;
+	border-radius: 5px;
+}
+.ConfigurationPgea4-xbt{
+	font-weight: bold;
+	margin: 10px 0 5px;
+}
+
+
+
+/* 分页器 */
+.paging .swiper-pagination-bullet{
+	width: 15px;
+	height: 15px;
+	background: transparent;
+	border: 2px solid #FF5116;
+	opacity: 1;
+}
+.paging .swiper-pagination-bullet-active{
+	background: #FF5116;
+	border: 2px solid #fff;
+}
+
+

@@ -1,0 +1,223 @@
+/*招聘职位*/
+
+.joblist {
+    width: 100%;
+}
+
+.joblist ul {
+    width: 100%;
+    min-height: 390px;
+}
+
+.joblist li {
+    width: 100%;
+    line-height: 65px;
+    height: 65px;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+.joblist li a {
+    float: right;
+    cursor: pointer;
+    color: #1B1B1B;
+    font-size: 16px;
+    padding-right: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.joblist li a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 3px;
+    background: #005BB1;
+    left: 0;
+    top: 31px;
+}
+
+.joblist li p {
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+.joblist li .jobname {
+    color: #005BB1;
+    font-family: 方正兰亭大黑简体;
+
+}
+
+.joblist li span {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.joblist li .jobarea {
+    margin-left: 10px;
+    color: #333333;
+}
+
+.jobPage {
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+    line-height: 28px;
+    height: 28px;
+    color: #333333;
+    font-size: 18px;
+}
+
+.jobPage .prev-page {
+    border: 2px solid #005BB1;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.jobPage .next-page {
+    border: 2px solid #005BB1;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.jobPage .pagebtn {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.jobPage .pagebtn:hover {
+    color: #FFFFFF;
+    background: #005BB1;
+}
+
+.jobPage .disabled {
+    color: #FFFFFF;
+    background: #005BB1;
+}
+
+.none_text {
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.job-load {
+    text-align: center;
+    line-height: 50px;
+}
+
+.jobmenu {
+    width: 100%;
+}
+
+.jobmenu h3 {
+    font-size: 24px;
+    color: #005BB1;
+    font-family: 方正兰亭大黑简体;
+    font-weight: 500;
+}
+
+.jobmenu h3 span {
+    color: #333333;
+    font-size: 18px;
+    font-family: 方正兰亭黑简体;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.jobmenu .job-title {
+    font-size: 18px;
+    color: #005BB1;
+    font-family: 方正兰亭中黑简体;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+.jobmenu p {
+    font-size: 18px;
+    color: #333333;
+    text-align: justify;
+    line-height: 32px;
+}
+
+.jobmenu .apply {
+    float: left;
+    display: block;
+    width: 165px;
+    height: 45px;
+    background: #005BB1;
+    border: 1px solid #005BB1;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: 方正兰亭大黑简体;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 330px;
+}
+
+.jobmenu .back {
+    float: right;
+    display: block;
+    width: 165px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #005BB1;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: #005BB1;
+    font-family: 方正兰亭大黑简体;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 330px;
+
+}
+
+/*提示框*/
+.job-result {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.job-result .infoshow {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    background: rgba(255, 255, 255, .8);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 30%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.job-result .infoshow .infobox {
+    width: 100%;
+}
+
+.job-result .infoshow .infobox .tipImg {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.job-result .infoshow .infobox .tips {
+    text-align: center;
+    font-size: 16px;
+}

@@ -1,0 +1,12 @@
+/*招聘流程*/
+
+.main {
+    min-height: 685px;
+}
+
+.process_img {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 166px;
+}

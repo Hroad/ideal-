@@ -1,0 +1,184 @@
+.bg_process {
+    position: relative;
+}
+
+.process {
+    overflow: hidden;
+    min-height: 678px;
+}
+
+.process_title {
+    margin-top: 60px;
+    margin-bottom: 78px;
+    display: block;
+}
+
+.pro_swiper {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 122px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.pro_swiper .swiper-slide {
+    width: 500px;
+    height: 324px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+    position: absolute;
+    box-shadow: 2px 2px 2px #cbcbcb;
+}
+
+.right_show {
+    position: absolute;
+}
+
+.right_show h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 18px;
+}
+
+.right_show p {
+    writing-mode: vertical-rl;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 2px;
+}
+
+.swiper-slide:nth-of-type(1) {
+    top: 0;
+    left: 0;
+}
+
+.swiper-slide:nth-of-type(1) .right_show {
+    right: 450px;
+    top: 72px;
+}
+
+.swiper-slide:nth-of-type(2) {
+    top: 0;
+    left: 70px;
+}
+
+.swiper-slide:nth-of-type(2) .right_show {
+    right: 450px;
+    top: 72px;
+}
+
+.swiper-slide:nth-of-type(3) {
+    top: 0;
+    left: 140px;
+    z-index: 3;
+    background-color: #ffffff;
+}
+
+.swiper-slide:nth-of-type(3) .right_show {
+    right: 450px;
+    top: 72px;
+}
+
+.swiper-slide:nth-of-type(4) {
+    top: 0;
+    left: 210px;
+    z-index: 2;
+}
+
+.swiper-slide:nth-of-type(4) .right_show {
+    right: 22px;
+    top: 72px;
+}
+
+.swiper-slide:nth-of-type(5) {
+    top: 0;
+    left: 280px;
+}
+
+.swiper-slide:nth-of-type(5) .right_show {
+    right: 22px;
+    top: 72px;
+}
+
+.pro_swiper .swiper-slide img {
+    display: block;
+    width: 104px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.f_line {
+    width: 381px;
+    height: 4px;
+    background-color: #bfbfbf;
+    margin: 32px auto;
+}
+
+.pro_text {
+    font-size: 43px;
+    font-family: "方正兰亭大黑简体";
+    color: #418fcc;
+    font-weight: normal;
+    text-align: center;
+}
+
+.swiper-wrapper {
+    position: relative;
+    height: 330px;
+    width: 100%;
+}
+
+.swiper-button-prev {
+    width: 22px;
+    height: 26px;
+    background: url(../../../images/pro_left_arrow.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    cursor: pointer;
+}
+
+.swiper-button-next {
+    width: 22px;
+    height: 26px;
+    background: url(../../../images/pro_right_arrow.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 150px;
+    right: 40px;
+    cursor: pointer;
+}
+
+.swiper-pagination {
+    margin-top: 30px;
+    text-indent: 338px;
+}
+
+.swiper-pagination-active {
+    background-color: #418fcc;
+}
+
+.swiper-pagination span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    box-sizing: border-box;
+    border: 1px solid #418fcc;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.main_content {
+    display: none;
+}
+
+.right_show {
+    display: block;
+}
+
+.z_max {
+    z-index: 99 !important;
+}

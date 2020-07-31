@@ -1,0 +1,78 @@
+.bg_person {
+    background: url(../../../images/person_bg.png)no-repeat;
+    background-size: 100% 100%;
+    min-height: 630px;
+    width: 100%;
+    position: relative;
+}
+
+.person {
+    overflow: hidden;
+}
+
+.intro_title2 {
+    margin-top: 50px;
+    margin-bottom: 65px;
+    display: block;
+}
+
+.swiper_box {
+    position: relative;
+}
+
+.cul-swiper {
+    padding-bottom: 50px !important;
+}
+
+.swiper-slide img {
+    display: block;
+    margin: 0 auto;
+}
+
+.swiper-slide p {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cul-swiper .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: url(../../../images/page.png) no-repeat;
+    opacity: 1;
+    margin: 0 10px !important;
+}
+
+.cul-swiper .swiper-pagination-bullet-active {
+    width: 37px;
+    height: 8px;
+    background: url(../../../images/page_active.png) no-repeat;
+    border-radius: 0;
+}
+
+.swiper_box .cul-prev {
+    width: 18px;
+    height: 32px;
+    background: url(../../../images/left_array.png) no-repeat;
+    opacity: 1 !important;
+    left: 80px;
+    top: 176px;
+}
+
+.swiper_box .cul-next {
+    width: 18px;
+    height: 32px;
+    background: url(../../../images/right_array.png) no-repeat;
+    opacity: 1 !important;
+    right: 80px;
+    top: 176px;
+}
+
+.swiper_box .cul-next::after {
+    opacity: 0;
+}
+
+.swiper_box .cul-prev::after {
+    opacity: 0;
+}

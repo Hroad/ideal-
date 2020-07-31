@@ -1,0 +1,169 @@
+body,
+.main {
+    width: 100%;
+    height: 100%;
+    min-width: 1280px;
+    min-height: 680px;
+    position: relative;
+    font-family: "方正兰亭黑简体";
+}
+
+.mediacy {
+    width: 1025px;
+    margin: 0 auto;
+}
+
+.content {
+    min-height: 960px;
+    display: none;
+    position: relative;
+}
+
+.bg_header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    background-color: #e5e5e5;
+    width: 100%;
+    /* line-height: 100px; */
+    z-index: 99;
+}
+
+.header {
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    margin-top: 30px;
+}
+
+.nav {
+    float: right;
+    font-size: 16px;
+    color: #005ab3;
+    font-family: "方正兰亭中黑简体";
+    margin-top: 40px;
+}
+
+.nav li {
+    float: left;
+    margin: 0 20px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+
+.nav .active::before {
+    content: '';
+    width: 15px;
+    height: 16px;
+    background: url(../images/aside_bg.png) no-repeat center;
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: -18px;
+}
+
+.nav li:hover::before {
+    content: '';
+    width: 15px;
+    height: 16px;
+    background: url(../images/aside_bg.png) no-repeat center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -18px;
+}
+
+.common {
+    display: block;
+    margin: 0 auto;
+}
+
+.person_box {
+    background: url(../images/temp_bg1.png) no-repeat;
+    background-size: 100% 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+/* 首页显示 */
+
+/*banner*/
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.banner-i {
+    width: 100%;
+    position: relative;
+}
+
+.banner-box {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    padding-left: 250px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+.banner-box p {
+    display: inline-block;
+    font-size: 14px;
+    color: #FFFFFF;
+    vertical-align: middle;
+    letter-spacing: 1px;
+}
+
+.banner-box h2 {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-family: 方正兰亭大黑简体;
+    font-weight: 500;
+}
+
+
+/* 版权部分 */
+
+.bottom-bg {
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.copyright {
+    position: relative;
+    z-index: 9;
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: #000000;
+    font-size: 12px;
+    margin-top: -70px;
+}
+
+.copyright img {
+    vertical-align: text-bottom;
+    display: inline;
+    /* width: 12px; */
+}

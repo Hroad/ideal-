@@ -1,0 +1,44 @@
+.cul-swiper {
+    width: 850px !important;
+    height: 475px;
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    user-select: none;
+    display: block;
+}
+
+.cul-pagination .swiper-pagination-bullet {
+    background-color: #cccccc;
+}
+
+.cul-pagination .swiper-pagination-bullet-active {
+    width: 12px;
+    height: 12px;
+    background-color: #ffe400;
+}
+
+.column-center .cul-prev {
+    width: 24px;
+    height: 81px;
+    background: url(../../../images/swiper_left.png) no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.column-center .cul-prev::after {
+    opacity: 0;
+}
+
+.column-center .cul-next {
+    width: 24px;
+    height: 81px;
+    background: url(../../../images/swiper_right.png) no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.column-center .cul-next::after {
+    opacity: 0;
+}

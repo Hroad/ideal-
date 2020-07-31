@@ -1,0 +1,147 @@
+/*宣讲行程*/
+
+
+.time_axis {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+
+.node {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.node img {
+    width: 41px;
+    display: block;
+}
+
+.node b {
+    width: 9px;
+    height: 9px;
+    border: 3px solid #ffde00;
+    border-radius: 50%;
+    display: block;
+    margin: 7px 0;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 99;
+}
+
+.node p {
+    font-family: "方正兰亭大黑简体";
+    color: #8c8c8c;
+    font-size: 16px;
+}
+
+.node_on b {
+    width: 13px;
+    height: 13px;
+    border: 3px solid #0062a9;
+    margin: 5px 0;
+    margin-bottom: 0px;
+}
+
+.node_on p {
+    color: #0062a9;
+    font-size: 20px;
+    font-family: "方正兰亭大黑简体";
+}
+
+.date_line {
+    height: 1px;
+    width: 888px;
+    background-color: #fee222;
+    position: absolute;
+    top: 52px;
+    left: 72px;
+}
+
+.arrow {
+    position: absolute;
+    width: 12px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+.right_arrow {
+    right: 0;
+}
+
+.left_arrow {
+    left: 0;
+}
+
+.content_box {
+    width: 750px;
+    height: 226px;
+    border-radius: 18px;
+    background-color: #eeeeee;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    padding: 20px 70px;
+    overflow: hidden;
+    display: none;
+}
+
+.content_box img {
+    float: left;
+    margin-right: 25px;
+}
+
+.school_details {
+    float: left;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.s_name {
+    color: #0062a9;
+    font-size: 27px;
+    font-family: "方正兰亭中黑简体";
+    margin-top: 22px;
+    margin-bottom: 30px;
+}

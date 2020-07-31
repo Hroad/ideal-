@@ -1,0 +1,27 @@
+<!-- 首页第一版 -->
+<link rel="stylesheet" href="template/index/css/index1.css">
+<div class="content">
+    <img src="images/index_bg.png" class="index_bg">
+    <img src="images/slogan.png" class="slogan">
+    <img src="images/enter.png" class="enter">
+    <img src="images/rocket.png" class="rocket">
+</div>
+
+<script>
+    // 禁止图片拖拽
+    $('img').on('mousedown', function (e) {
+        e.preventDefault()
+    })
+
+    $(".enter").click(function () {
+
+        $(".bg_banner").load("template/common/banner1.html");
+
+        $(".bg_content").load("template/intro/html/intro2.html");
+
+        $(".copyright").addClass("copy_special");
+
+        $(".nav li").eq(1).addClass("active").siblings().removeClass("active");
+
+    })
+</script>

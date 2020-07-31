@@ -1,0 +1,127 @@
+.fl img{
+    height: 44px;
+}
+.slogan,
+.z1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.z1{
+    top: 50%;
+}
+.box{
+    position: relative;
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: #fff;
+    padding: 25px 60px;
+    font-size:20px
+}
+.box h2{
+    margin-bottom: 20px;
+}
+.about p{
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 40px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.b1{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+/* 公司简介 */
+.swiper1{
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    margin: 0 auto 30px;
+}
+.swiper1 .swiper-slide img{
+    width: 100%;
+}
+.swp1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+.swiper-pagination-bullet{
+    margin: 10px;
+}
+.swiper-button-next, .swiper-button-prev{
+    width: 61px;
+    height: 61px;
+    background-size: 100% 100%;
+    margin-top: 5px;
+}
+.swiper-button-prev{
+    background-image: url(../images/zfl.png);
+}
+.swiper-button-next{
+    background-image: url(../images/yfr.png);
+}
+.about ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about ul li{
+    width: 24%;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+/* 招聘职位 */
+.job ul li{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+    color: #5c5c5c;
+    padding: 10px;
+}
+.job ul li a{
+    color: #3c96e5;
+}
+.job ul li p{
+   line-height: 28px;
+}
+.job ul li span{
+    float: left;
+}
+.job ul .act {
+    background-color: #d2ecff;
+}
+.job ul li:nth-child(odd){
+    border-bottom: 1px solid #dbeaf5;
+}
+.job ul li:nth-child(even){
+    display: none;
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 5px 0px #e8e8e8;
+}
+.job ul li:nth-child(2){
+    display: block;
+}
+.job ul li span:last-child{
+    float: right;
+}
+.job ul li span:nth-child(2),
+.job ul li span:nth-child(3){
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.job ul li span:nth-child(3){
+    left: 65%;
+}
+/* 招聘流程 */
+
+/* 宣讲行程 */
+
+/* 联系我们 */

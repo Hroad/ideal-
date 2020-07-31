@@ -1,0 +1,94 @@
+/*公司简介*/
+
+.main {
+    /* background-color: #ffffff; */
+    box-sizing: border-box;
+    /* padding: 102px 38px; */
+    padding-top: 0;
+    margin-top: 50px !important;
+}
+
+.img_box {
+    float: left;
+    /* overflow: hidden; */
+    width: 440px;
+    height: 518px;
+    position: relative;
+    margin-right: 86px;
+}
+
+.img_box img {
+    position: absolute;
+    display: block;
+}
+
+.img_box img:nth-child(1) {
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.img_box img:nth-child(2) {
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/* top值为第一张图片高度 */
+.detail {
+    height: 26px;
+    width: fit-content;
+    position: absolute;
+    left: 0;
+    top: 490px;
+    background-color: #0358c2;
+    padding: 5px 15px;
+}
+
+.column-center h1 {
+    font-weight: normal;
+    font-size: 48px;
+    font-family: "方正兰亭大黑简体";
+}
+
+.column-center h2 {
+    font-weight: normal;
+    color: #0358c2;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.join {
+    width: 177px;
+    height: 48px;
+    background-color: #0358c2;
+    color: #ffffff;
+    text-align: center;
+    line-height: 48px;
+    margin-left: 526px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.more {
+    width: fit-content;
+    color: #0358c2;
+    text-align: center;
+    margin-left: 588px;
+    font-size: 14px;
+    border-bottom: 1px solid #0358c2;
+    cursor: pointer;
+}
+
+.img_box .container1-1 .column-center {
+    position: relative;
+}
+
+.container1-1 .column-center p {
+    font-size: 14px;
+    line-height: 28px;
+    text-indent: 28px;
+    color: #999999;
+    text-align: justify;
+}

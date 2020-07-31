@@ -1,0 +1,21 @@
+.bg_welfare {
+    position: relative;
+    background-color: #fafafa;
+}
+
+.welfare {
+    overflow: hidden;
+    min-height: 568px;
+}
+
+.welfare img {
+    display: block;
+    width: 100%;
+    margin-top: 56px;
+    margin-bottom: 86px;
+}
+
+.welfare .title3 {
+    width: 100%;
+    display: block;
+}

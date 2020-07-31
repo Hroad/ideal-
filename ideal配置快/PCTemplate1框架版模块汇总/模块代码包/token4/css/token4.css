@@ -1,0 +1,76 @@
+.bg_token {
+    position: relative;
+    min-height: 726px;
+}
+
+.token {
+    overflow: hidden;
+}
+
+.token_title {
+    margin-top: 56px;
+    margin-bottom: 40px;
+}
+
+/*.token_img {*/
+    /*display: block;*/
+    /*width: 100%;*/
+/*}*/
+.road{
+    margin-bottom: 100px;
+}
+.road-title{
+    background: #F29D6D;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.road-title p{
+    font-size: 22px;
+    text-align: center;
+    width: 25%;
+    line-height: 35px;
+    padding-top: 3px;
+    color: white;
+}
+.road-list{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.road-list p{
+    text-align: center;
+    width: 25%;
+    font-size: 15px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+.road-list p:nth-child(1){
+    padding-left: 8%;
+    width: 18%;
+}
+.road-list p:nth-child(3){
+    padding-left: 2%;
+}
+.road-list p.school-name{
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

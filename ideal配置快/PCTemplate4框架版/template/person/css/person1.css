@@ -1,0 +1,123 @@
+/* 员工风采 */
+
+.person {
+    background-color: transparent;
+    font-family: "方正兰亭黑简体";
+}
+
+.cul-swiper {
+    position: relative;
+    margin-left: 0;
+    margin-top: 120px;
+}
+
+.cul-swiper .swiper-wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.cul-swiper .swiper-slide {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.cul-swiper .swiper-slide img {
+    margin-bottom: 25px;
+    margin: 0 auto;
+    display: block;
+}
+
+.container1-2 .cul-prev {
+    width: 40px;
+    height: 40px;
+    background: url(../../../images/left_arrow.png) no-repeat;
+    background-size: 100% 100%;
+    opacity: 1 !important;
+    top: 160px;
+    left: 162px;
+}
+
+.container1-2 .cul-next {
+    width: 40px;
+    height: 40px;
+    background: url(../../../images/right_arrow.png) no-repeat;
+    background-size: 100% 100%;
+    opacity: 1 !important;
+    right: 162px;
+    top: 160px;
+}
+
+.container1-2 .cul-next::after {
+    opacity: 0;
+}
+
+.container1-2 .cul-prev::after {
+    opacity: 0;
+}
+
+.person_title span:nth-of-type(1) {
+    color: rgb(255, 255, 255);
+}
+
+.person_title span:nth-of-type(2) {
+    color: rgba(255, 255, 255, 0.4);
+    white-space: nowrap;
+}
+
+.only {
+    font-size: 72px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 26px;
+}
+
+.numbers {
+    position: absolute;
+    bottom: 0;
+    left: 460px;
+    font-size: 14px;
+}
+
+.numbers span:nth-of-type(2) {
+    color: #0066ff;
+}
+
+.paginations {
+    position: absolute;
+    top: 24px;
+    right: 0;
+    z-index: 8;
+}
+
+.buttle {
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.buttle img {
+    display: block;
+    margin: 0 auto;
+}
+
+.buttle p {
+    margin: 0 !important;
+    width: auto !important;
+    color: #999999;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+
+.paginations-buttle-active p {
+    color: #df969f !important;
+}
+
+.swiper_line {
+    width: 1px;
+    height: 274px;
+    background-color: #d9dada;
+    position: absolute;
+    top: 30px;
+    right: 118px;
+}

@@ -1,0 +1,118 @@
+/* 针对首页的文档满屏 */
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/* 头部脱离文档流 */
+.bg_header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+/* 内容区留白导航高度 达到首页背景图自适应 */
+.content {
+    width: 100%;
+    height: 100%;
+    padding-top: 120px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav {
+    float: right;
+    font-size: 16px;
+    color: #595959;
+    margin-top: 50px;
+    font-family: "方正兰亭中黑简体";
+}
+
+.index_bg {
+    width: 100%;
+    height: 100%;
+    display: block;
+	animation: bganimate 1s linear 0s;
+	-moz-animation: bganimate 1s linear 0s;
+	-webkit-animation: bganimate 1s linear 0s;
+}
+@keyframes bganimate {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes bganimate {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes bganimate {
+    from {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.slogan {
+    position: absolute;
+    top: 31%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 500px;
+	animation: bganimate 1s linear 0s;
+	-moz-animation: bganimate 1s linear 0s;
+	-webkit-animation: bganimate 1s linear 0s;
+}
+
+.enter {
+    position: absolute;
+    bottom: 31%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 298px;
+    cursor: pointer;
+	animation: bganimate 1s linear 0s;
+	-moz-animation: bganimate 1s linear 0s;
+	-webkit-animation: bganimate 1s linear 0s;
+}
+
+.rocket {
+    position: absolute;
+    width: 206px;
+    right: 30px;
+    top: 27.7%;
+}
+
+/* 版权 */
+.copyright {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright img {
+    margin-right: 5px;
+    vertical-align: bottom;
+}

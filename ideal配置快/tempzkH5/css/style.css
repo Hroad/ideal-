@@ -1,0 +1,556 @@
+@charset "utf-8";
+/* ----------------
+	公共样式开始
+----------------- */
+/*长页面滚轮*/
+html,body,
+.swiper-container,
+.swiper-slide,
+.swiper-wrapper {
+	width: 100%;
+	height: 100%;
+}
+.page-L {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+.page-L::-webkit-scrollbar {
+	display: none;
+}
+.fl{float: left;}
+.fr{float: right;}
+img{display: block;margin: 0 auto;}
+/*中间内容*/
+.main{
+	box-sizing: border-box;
+	min-height: 95%;
+	padding-bottom: 0;
+	/*此处 padding-bottom 大小要和底部footer等高*/
+}
+
+.main .top .logo{
+	width: 2.9875rem;
+}
+.main .info{
+	min-height: 7.2rem;
+}
+
+
+/* ----------------
+	公共样式结束
+----------------- */
+/* ----------------
+	各页面背景图
+----------------- */
+#s1{
+	background: url(../images/index_mbj.jpg) no-repeat top center/100% 100%;
+}
+/* ----------------
+	各页面背景图
+----------------- */
+/* ----------------
+	引导页s1开始
+----------------- */
+
+#s1 .top .logo{
+    width: 3rem;
+    margin: 2.4% 0 0 6%
+}
+.index-slogin1 img{
+    width: 3.3rem;
+    margin: 9.6% 0 0 5%;
+}
+.index-slogin2 img{
+    width: 4.2rem;
+    margin: 4.7% 0 0 5%;
+}
+.index-mapply{
+    font-size: 0.3rem;
+    color: #ff5116;
+    font-weight: bold;
+    background: #fff;
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 1.8rem;
+    height: 0.6rem;
+    cursor: pointer;
+    line-height: 0.6rem;
+    margin: 7% 0 0 5%;
+	position: relative;
+	z-index: 3;
+}
+.index-icon1 img{
+	width: 6rem;
+	position: absolute;
+	top: 4%;
+	right: -4%;
+}
+.index-mkbox{
+	background: url(../images/index_mkbg.png) no-repeat center center/100% 100%;
+	width: 88%;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding-bottom: 7%;
+	z-index: 4;
+}
+.index_mkbtns{
+    width: 95%;
+	margin: 0 auto;
+}
+.index_mkbtns ul{
+	overflow: hidden;
+	margin: 4% 0;
+}
+.index_mkbtns ul li{
+	width: 25%;
+	float: left;
+	text-align: center;
+	padding: 3% 0;
+	border-radius: 5px;
+}
+
+.index_mkbtns ul li:nth-child(4) img{
+	width: 0.33rem;
+}
+.index_mkbtns ul li p{
+	font-size: 0.2rem;
+	font-weight: bold;
+	margin-top: -3%;
+}
+.index_mkbtns ul li img{
+	width: 0.35rem;
+	margin-bottom: 0.1rem;
+}
+.active{
+	background: rgba(153,153,153,0.1);
+	color: #FF5116;
+}
+.mnav-icon{
+	height: 0.5rem;
+}
+
+.index_zslist{
+    width: 95%;
+	margin: 0 auto;
+}
+.index_zslist ul{
+	overflow: hidden;
+	display: none;
+}
+.index_zslist ul:first-child{
+	display: block;
+}
+.index_zslist ul li{
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+	background: rgba(153,153,153,0.1);
+	border-radius: 5px;
+	font-size: 0.25rem;
+	text-align: center;
+	margin-bottom: 2.5%;
+	padding: 5% 0;
+}
+.index_zslist ul li:nth-child(even){
+	margin-right: 0;
+}
+.index_zslist ul li img{
+	width: 1.3rem;
+	margin-bottom: 5%;
+}
+.index_zslist ul li:nth-child(2) img{
+	margin-bottom: 5%;
+}
+.index_zslist ul li:nth-child(4) img{
+	margin-bottom: 5%;
+}
+.index_zslist ul li p{
+	font-size: 0.2rem;
+	line-height: 0.5rem;
+	color: #666;
+}
+
+.index_kf img{
+	position: absolute;
+	bottom: 0;
+	width: 4rem;
+	z-index: 4;
+}
+
+/* ----------------
+	引导页s1结束
+----------------- */
+/* ----------------
+	报名页s2开始
+----------------- */
+.main .top .logo2{
+	width: 4rem;
+    margin-left: 4%;
+}
+.mapply-box{
+	background: url(../images/mapply_bg.png) no-repeat center center/100%;
+	position: relative;
+}
+.mapply-sloganbt{
+	font-size: 0.25rem;
+    background: #FF5116;
+    border-radius: 5px;
+    width: 42%;
+    text-align: center;
+    color: #fff;
+    height: 0.55rem;
+    line-height: 0.55rem;
+    margin: 6% 0 0 4%;
+}
+.mapply-sliganbt2{
+    font-size: 0.4rem;
+    border-radius: 5px;
+    height: 0.55rem;
+    line-height: 0.55rem;
+    margin: 4% 0 0 1%;
+    font-weight: bold;
+}
+.mapply-x{
+    width: 15%;
+    height: 0.1rem;
+    background: #FF5116;
+    border-radius: 0.05rem;
+    margin: 5% 0 0 5%;
+}
+.mapply-txt{
+	font-size: 0.2rem;
+	color: #666;
+	width: 60%;
+	line-height: 0.35rem;
+	margin: 4% 0 0 4%;
+	text-align: justify;
+}
+.mapply-from{
+    background: url(../images/mapply_from.png) no-repeat top center/100%;
+    width: 90%;
+    margin: 6% auto 0;
+    min-height: 11rem;
+	position: relative;
+	z-index: 2;
+}
+.mapply-inplist{
+    width: 5rem;
+    margin: 0% auto 0;
+    font-size: 0.3rem;
+    position: absolute;
+    top: 24%;
+    left: 0;
+    right: 0;
+}
+.mgsname{
+	background: url("../images/a2.png") no-repeat;
+	background-size: 100% 100%;
+}
+.mxsname{
+	background: url("../images/a3.png") no-repeat;
+	background-size: 100% 100%;
+}
+.mzname{
+	background: url("../images/a4.png") no-repeat;
+	background-size: 100% 100%;
+}
+.mtel{
+	background: url("../images/a5.png") no-repeat;
+	background-size: 100% 100%;
+}
+.mapply-inplist input{
+	width: 90%;
+	border: none;
+	outline: none;
+	color: #666;
+	font-size: 0.2rem;
+	padding-left: 15%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	border-radius: 5px;
+	margin-bottom: 5%;
+}
+.mapply-sub{
+	background: #FF5116;
+	color: #fff;
+	font-size: 0.25rem;
+	width: 30%;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	text-align: center;
+	border-radius: 5px;
+	position: absolute;
+	right: 2%;
+}
+
+.mkf-box{
+	position: absolute;
+	bottom: -15%;
+	height: 4.4rem;
+	width: 100%;
+	z-index: 3;
+	background: url(../images/mkf_bg.png) no-repeat center center/100% 100%;
+}
+.mkf-txt{
+	overflow: hidden;
+	padding: 2% 4%;
+}
+.mkf-icon{
+	float: left;
+}
+.mkf-icon img{
+    width: 1.9rem;
+    margin-top: 12%;
+}
+.mkf-wz{
+    float: right;
+    color: #fff;
+    width: 60%;
+    font-size: 0.25rem;
+    margin-top: 9%;
+}
+.mkf-wz h3{
+	font-size: 0.3rem;
+	letter-spacing: 0.1rem;
+	margin-bottom: 5%;
+}
+
+.mkf-btns{
+	overflow: hidden;
+	padding: 7.4% 4%;
+	width: 80%;
+	margin: 0 auto;
+}
+.mkf-zx{
+    float: left;
+    font-size: 0.2rem;
+    background: #f04c15;
+    border-radius: 5px;
+    color: #fff;
+    width: 25%;
+    text-align: center;
+	padding: 3% 0;
+}
+.mkf-zx img{
+    width: 0.25rem;
+    margin: 0 auto 3%;
+}
+.mkf-fh{
+    font-size: 0.4rem;
+    color: #fff;
+    background: #f04c15;
+    width: 61%;
+    float: right;
+    border-radius: 5px;
+    text-align: center;
+	padding: 3.4% 0;
+    letter-spacing: 0.2rem;
+	text-indent:0.2rem;
+}
+
+
+/* ----------------
+	报名页s2结束
+----------------- */
+
+/* h5的PC配置包 */
+.MPC-pzb{
+	background: url(../images/pcpzb_tbg.png) no-repeat right top/100%;
+}
+.mt-bg img{
+	width: 100%;
+}
+.mfh{
+	padding: 3% 0 0 5%;
+    font-size: 0.3rem;
+    color: #fff;
+}
+.mpcpzb-logo img{
+    width: 75%;
+	margin-top: 4%;
+    margin-left: 0%;
+}
+.mpcpzb-dh img{
+    width: 85%;
+	margin-top: 10%;
+}
+.mpcpzb-icon1 img{
+	width: 60%;
+    margin: 0% auto;
+	margin-right: 14%;
+}
+.mpcpzb-bbg img{
+	width: 100%;
+}
+.mpcpzb-icon2 img{
+    width: 48%;
+	margin-top: -62%;
+	margin-right: 0;
+}
+.mpcpzb-box1{
+	margin-top: -106%;
+}
+.mpcpzb-t1 img{
+	width: 80%;
+
+}
+.mpcpzb-boxts ul li img{
+	width: 80%;
+	margin: 0 auto;
+}
+.mpcpzb-boxts ul li:first-child img{
+	margin-top: 5%;
+}
+.mpcpzb-icon3 img{
+	width: 22%;
+	position: absolute;
+	margin-top: -89%;
+	z-index: -1;
+}
+.mpcpzb-icon4 img{
+    width: 60%;
+    margin-top: 10%;
+}
+
+.mpcpzb-box2{
+	margin-top: 4%;
+	margin-left: -4%;
+}
+.mpcpzb-box2 img{
+	width: 100%;
+}
+.mpcpzb-icon5 img{
+	width: 90%;
+	margin-top: -18%;
+}
+.mpcpzb-t3 img{
+	width: 50%;
+	margin: 20% auto 10%;
+}
+
+.mpcpzb-albox{
+	width: 90%;
+	margin: 0 auto;
+}
+.mpcpzb-albox ul{
+	overflow: hidden;
+}
+.mpcpzb-albox ul li{
+	width: 41%;
+	float: left;
+	padding: 3%;
+	background: #fff;
+	box-shadow: 0 0 5px #e3e4e3;
+	font-size: 0.2rem;
+	color: #535353;
+	border-radius: 5px;
+	margin-right: 4%;
+	margin-bottom: 4%;
+	border: 1px solid #e3e4e3;
+}
+.mpcpzb-albox ul li:nth-child(even){
+	margin-right: 0;
+	float: right;
+}
+.mpcpzb-albox ul li img{
+	width: 100%;
+}
+.maltitle1{
+	font-size: 0.25rem;
+	font-weight: bold;
+	margin: 3% 0;
+}
+.mpcpzc-footer img{
+	width: 100%;
+}
+.abj{
+	width: 100%;
+	position: absolute;
+	top: 10.2rem;
+	z-index: 1;
+}
+
+.go{
+	position: absolute;
+	top: 2%;
+	right: 5%;
+	width: 20%;
+}
+.a2{
+	position: absolute;
+	top: 0.12rem;
+	left: 0.12rem;
+	width: 0.3rem;
+}
+.a3{
+	position: absolute;
+	top: 0.89rem;
+	left: 0.12rem;
+	width: 0.3rem;
+}
+.a4{
+	position: absolute;
+	top: 1.66rem;
+	left: 0.12rem;
+	width: 0.3rem;
+}
+.a5{
+	position: absolute;
+	top: 2.45rem;
+	left: 0.12rem;
+	width: 0.3rem;
+}
+.a6{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 1rem;
+	height: 0.5rem;
+	border: none;
+	background-color: rgba(0,0,0,0);
+	border-left: 1px #f7f3f3 solid;
+	color: #666;
+	font-size: 0.2rem;
+}
+.demand{
+	width: 85%;
+	margin: 0 auto;
+	display: block;
+	outline: none;
+	border: none;
+	background: #f7f3f3;
+	border-radius: 5px;
+	height: 90px;
+	line-height: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #666;
+	resize:none;
+	outline:none;
+	font-size: 0.2rem;
+}
+.a7{
+	position: relative;
+}
+
+
+@media screen and (min-height: 800px) {
+	.mapply-inplist {
+		width: 4rem;
+		margin: 0 auto;
+		font-size: 0.3rem;
+		position: absolute;
+		top: 17%;
+		left: 0;
+		right: 0;
+	}
+}

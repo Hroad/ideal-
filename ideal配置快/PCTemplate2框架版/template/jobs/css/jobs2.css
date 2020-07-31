@@ -1,0 +1,176 @@
+.bg_jobs {
+    position: relative;
+    min-height: 811px;
+}
+
+.jobs {
+    overflow: hidden;
+}
+
+.jobs_title {
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+.job_text {
+    width: 100%;
+    border-radius: 15px;
+    height: 66px;
+    background-color: #5199ce;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 66px;
+    overflow: hidden;
+}
+
+.job_text span {
+    display: inline-block;
+    text-align: center;
+}
+
+.job_text span:first-child {
+    width: 190px;
+}
+
+.job_text span:last-child {
+    width: 800px;
+    float: right;
+}
+
+.jobs_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.nav_box {
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.left_nav {
+    width: 165px;
+    color: #ffffff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    background-color: #418fcc;
+    padding: 16px 0px 30px 0px;
+    font-size: 14px;
+    height: 470px;
+    overflow: hidden;
+    border-radius: 4px;
+    border: 1px solid #0059b3;
+}
+
+.job_active {
+    color: #0059b3 !important;
+    background-color: #ffffff !important;
+}
+
+.left_nav .job_name {
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    text-align: center;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    background: url(../../../images/job_name_bg.png) no-repeat;
+    background-position: 12px 34px;
+}
+
+.right_content {
+    width: 841px;
+    height: 505px;
+    font-size: 14px;
+    background: url(../../../images/jobs_bg.png) no-repeat;
+    position: relative;
+    box-sizing: border-box;
+    padding: 84px 49px 94px 114px;
+    overflow: hidden;
+    color: #979292;
+}
+
+.common_style {
+    width: 100%;
+    font-size: 16px;
+    /* border-bottom: 1px solid #b4dbf2; */
+    margin-bottom: 5px;
+}
+
+.common_style img {
+    /* vertical-align: text-bottom; */
+    margin-right: 8px;
+    display: block;
+    float: left;
+    margin-top: 6px;
+}
+
+.common_text {
+    line-height: 28px;
+    text-align: justify;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    padding-left: 95px;
+}
+
+.apply {
+    position: absolute;
+    bottom: 64px;
+    right: 85px;
+    width: 92px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    background: url(../../../images/apply_bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.j_name {
+    position: absolute;
+    top: 31px;
+    left: 130px;
+    color: #f2f2f2;
+}
+
+.arrow_box {
+    position: absolute;
+    bottom: 48px;
+    width: 130px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.job_left_arrow {
+    width: 10px;
+    height: 13px;
+    background: url(../../../images/job_left_arrow.png) no-repeat;
+    float: left;
+    cursor: pointer;
+}
+
+.job_right_arrow {
+    width: 10px;
+    height: 13px;
+    background: url(../../../images/job_right_arrow.png) no-repeat;
+    float: right;
+    cursor: pointer;
+}

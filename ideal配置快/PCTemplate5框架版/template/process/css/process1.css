@@ -1,0 +1,76 @@
+/*招聘流程*/
+
+.main {
+    min-height: 685px;
+}
+
+.process_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.box_shadow {
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    color: #535353;
+}
+
+.box_shadow img {
+    display: block;
+}
+
+.shadow1,
+.shadow2 {
+    float: left;
+}
+
+.shadow1 {
+    margin-left: 208px;
+    margin-top: 26px;
+    margin-right: 75px;
+}
+
+.box1 {
+    background: url(../../../images/box_shadow.png) no-repeat;
+    width: 170px;
+    height: 188px;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.box1 img {
+    margin: 26px auto;
+    margin-bottom: 15px;
+}
+
+.box1 p {
+    text-align: center;
+}
+
+.box2 {
+    background: url(../../../images/box_shadow1.png) no-repeat;
+    width: 337px;
+    height: 214px;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+.box2 img {
+    margin-top: 24px;
+    margin-left: 28px;
+    margin-bottom: 15px;
+}
+
+.box2 p {
+    margin-left: 26px;
+}
+
+.icon {
+    margin-top: 15px;
+    margin-left: 33px;
+}
+
+.s_icon {
+    margin-left: 42px;
+}
